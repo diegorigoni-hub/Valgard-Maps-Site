@@ -5,3 +5,5 @@ Interface pública de visualização dos mapas de Valgard.
 Este repositório contém somente o site estático e seus mapas publicados. O projeto técnico principal, sua documentação interna e as fontes canônicas permanecem privados.
 
 O mapa atual corresponde à Fase 3 e representa apenas o mundo conhecido de Eldrath. Limites, coordenadas e rotas visuais são adaptações cartográficas provisórias.
+
+Elementos exibidos em roxo pertencem à camada de propostas e não são canônicos.

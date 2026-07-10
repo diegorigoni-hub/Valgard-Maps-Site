@@ -6,4 +6,4 @@ Este repositório contém somente o site estático e seus mapas publicados. O pr
 
 O mapa atual corresponde à Fase 3 e representa apenas o mundo conhecido de Eldrath. Limites, coordenadas e rotas visuais são adaptações cartográficas provisórias.
 
-Elementos exibidos em roxo pertencem à camada de propostas e não são canônicos.
+As decisões cartográficas exibidas foram aprovadas pelo autor. Coordenadas, limites e traçados exatos continuam sendo adaptações técnicas do mapa.

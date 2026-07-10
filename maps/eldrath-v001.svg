@@ -1,43 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="map-title map-description">
   <title id="map-title">Eldrath — Mundo Conhecido</title>
-  <desc id="map-description">Mapa cartográfico gerado automaticamente. Geometrias provisórias não alteram o cânone.</desc>
-  <defs><filter id="paper"><feTurbulence baseFrequency=".7" numOctaves="3" seed="17" result="noise"/><feBlend in="SourceGraphic" in2="noise" mode="multiply"/></filter></defs>
-  <style>text{font-family:Georgia,serif;fill:#29271f}.region-label{font-size:22px;letter-spacing:2px;opacity:.72}.feature-label{font-size:18px;font-style:italic}.settlement-label{font-size:17px;font-weight:700;paint-order:stroke;stroke:#f4eedc;stroke-width:4px;stroke-linejoin:round}.coast{fill:#d8cca5;stroke:#594f38;stroke-width:8;stroke-linejoin:round}.biome{stroke:none;opacity:.76}.river{fill:none;stroke:#4d88a2;stroke-width:9;stroke-linecap:round}.mountain-line{fill:none;stroke:#675c4d;stroke-width:5;stroke-dasharray:4 13;stroke-linecap:round}.settlement{fill:#352f25;stroke:#f4eedc;stroke-width:3}</style>
+  <desc id="map-description">Mapa estruturado do mundo conhecido de Eldrath, gerado automaticamente. Limites e coordenadas são adaptações cartográficas.</desc>
+  <style>text{font-family:Georgia,serif;fill:#29271f}.region-label{font-size:20px;letter-spacing:2px;opacity:.76}.feature-label{font-size:16px;font-style:italic}.settlement-label{font-size:16px;font-weight:700;paint-order:stroke;stroke:#f4eedc;stroke-width:4px;stroke-linejoin:round}.coast{fill:#d8cca5;stroke:#594f38;stroke-width:8;stroke-linejoin:round}.region{fill:none;stroke:#625d4c;stroke-width:2;stroke-dasharray:8 8;opacity:.55}.subregion{fill:#f2e4bd;stroke:#786d55;stroke-width:1.5;opacity:.18}.biome{stroke:none;opacity:.7}.territory{fill:none;stroke:#8d513d;stroke-width:3;stroke-dasharray:12 8;opacity:.7}.route{fill:none;stroke:#7b563f;stroke-width:4;stroke-dasharray:8 7;stroke-linecap:round;opacity:.72}.river{fill:none;stroke:#397c9b;stroke-width:9;stroke-linecap:round}.lake{fill:#4d88a2;stroke:#315f73;stroke-width:3}.relief{fill:none;stroke:#675c4d;stroke-width:5;stroke-dasharray:4 13;stroke-linecap:round}.settlement{fill:#352f25;stroke:#f4eedc;stroke-width:3}.neutral{fill:#f4eedc;stroke:#352f25;stroke-width:3}</style>
   <g id="layer-background"><rect width="100%" height="100%" fill="#8eb6bd"/><rect x="26" y="26" width="1548" height="948" rx="10" fill="none" stroke="#e8e0c8" stroke-width="3" opacity=".7"/></g>
   <g id="layer-continents">
     <polygon id="continent-eldrath" class="coast" points="180,180 430,90 770,115 1080,190 1360,360 1290,650 1080,850 760,910 440,820 210,600"><title>Eldrath</title></polygon>
   </g>
-  <g id="layer-biomes">
-    <polygon id="biome-north" class="biome" fill="#dce8e5" points="310,205 480,125 800,145 1080,220 1000,335 620,315 360,350"><title>Norte Congelado</title></polygon>
-    <polygon id="biome-ossandra" class="biome" fill="#557a52" points="280,385 510,320 690,390 650,595 400,650 250,535"><title>Floresta de Ossandra</title></polygon>
-    <polygon id="biome-plains" class="biome" fill="#b8bd75" points="680,335 1000,330 1110,610 880,715 650,590"><title>Grandes Planícies</title></polygon>
-    <polygon id="biome-xerath" class="biome" fill="#d8b66f" points="500,650 880,710 1080,825 690,875 430,790"><title>Deserto de Xerath</title></polygon>
+  <g id="layer-regions">
+    <polygon id="region-central" class="region" points="390,330 710,285 970,360 930,650 590,690 340,560"><title>Terras Centrais</title></polygon>
+    <polygon id="region-west" class="region" points="180,260 390,330 340,560 450,760 250,650 180,500"><title>Costas do Oeste</title></polygon>
+    <polygon id="region-east" class="region" points="970,260 1240,320 1320,520 1190,700 930,650 970,360"><title>Montanhas Orientais</title></polygon>
+    <polygon id="region-plains" class="region" points="420,145 810,125 1070,205 970,360 710,285 390,330"><title>Grandes Planícies</title></polygon>
+    <polygon id="region-south" class="region" points="450,760 590,690 930,650 1190,700 1050,850 700,900"><title>Deserto do Sul</title></polygon>
+    <polygon id="region-north" class="region" points="180,180 430,90 770,115 1080,190 1070,205 810,125 420,145 180,260"><title>Norte Congelado</title></polygon>
   </g>
-  <g id="layer-mountains">
-    <polyline id="mountains-grey" class="mountain-line" points="1010,285 1060,350 1100,420 1140,500 1180,580 1210,650"><title>Montanhas Cinzentas</title></polyline>
-    <text class="feature-label" x="1164" y="500">Montanhas Cinzentas</text>
+  <g id="layer-biomes">
+    <polygon id="biome-north" class="biome" fill="#dce8e5" points="220,175 450,110 760,130 1040,200 980,285 620,270 350,300"><title>Tundra do Norte Congelado</title></polygon>
+    <polygon id="biome-ossandra" class="biome" fill="#557a52" points="470,350 690,310 790,390 750,535 560,560 430,480"><title>Floresta de Ossandra</title></polygon>
+    <polygon id="biome-plains" class="biome" fill="#b8bd75" points="430,175 790,145 1020,215 940,330 710,280 420,310"><title>Campos das Grandes Planícies</title></polygon>
+    <polygon id="biome-xerath" class="biome" fill="#d8b66f" points="500,710 900,670 1120,760 1030,845 700,885 460,790"><title>Deserto de Xerath</title></polygon>
+    <polygon id="biome-west-coast" class="biome" fill="#7f9e79" points="205,285 370,340 330,560 420,720 270,640 205,500"><title>Costa marítima ocidental</title></polygon>
+    <polygon id="biome-east-alpine" class="biome" fill="#9a998f" points="990,280 1210,330 1290,510 1170,670 960,630 1000,390"><title>Faixa alpina oriental</title></polygon>
+  </g>
+  <g id="layer-subregions">
+    <polygon id="subregion-valgard-valley" class="subregion" points="610,450 790,440 820,590 640,620"><title>Vale de Valgard</title></polygon>
+    <polygon id="subregion-ashvale-valley" class="subregion" points="800,550 940,520 970,650 850,680"><title>Vale de Ashvale</title></polygon>
+    <polygon id="subregion-eastern-hills" class="subregion" points="760,320 960,330 970,430 800,450"><title>Colinas Orientais</title></polygon>
+  </g>
+  <g id="layer-territories">
+    <polygon id="territory-valgard" class="territory" points="600,430 790,430 820,590 620,620 560,520"><title>Território de Valgard</title></polygon>
+    <polygon id="territory-fenhollow" class="territory" points="760,340 930,350 930,470 790,490"><title>Território de Fenhollow</title></polygon>
+    <polygon id="territory-kragmoor" class="territory" points="980,420 1210,390 1230,650 1040,650"><title>Território de Kragmoor</title></polygon>
+    <polygon id="territory-thalmoor" class="territory" points="200,400 370,420 380,680 250,670 190,570"><title>Território de Thalmoor</title></polygon>
+    <polygon id="territory-rhenmark" class="territory" points="520,170 930,170 980,300 650,320"><title>Território nômade de Rhenmark</title></polygon>
+    <polygon id="territory-xerath" class="territory" points="500,710 980,680 1080,830 700,880 470,790"><title>Território de Xerath</title></polygon>
+    <polygon id="territory-ashvale" class="territory" points="810,540 950,520 970,650 850,680"><title>Vale neutro de Ashvale</title></polygon>
+  </g>
+  <g id="layer-lakes">
+  </g>
+  <g id="layer-routes">
+    <polyline id="route-valgard-fenhollow" class="route" points="700,520 760,475 835,410"><title>Trilha Valgard–Fenhollow — 1 dia(s)</title></polyline>
+    <polyline id="route-valgard-ashvale" class="route" points="700,520 790,560 885,595"><title>Trilha Valgard–Ashvale — 1 dia(s)</title></polyline>
+    <polyline id="route-valgard-kragmoor" class="route" points="700,520 835,410 970,440 1090,500"><title>Rota Valgard–Kragmoor — 3–4 dias</title></polyline>
+    <polyline id="route-valgard-thalmoor" class="route" points="700,520 560,560 430,590 300,620"><title>Rota Valgard–Thalmoor — 4–5 dias</title></polyline>
+    <polyline id="route-thalmoor-xerath" class="route" points="300,620 420,720 580,790 760,790"><title>Rota costeira Thalmoor–Xerath — tempo desconhecido</title></polyline>
+  </g>
+  <g id="layer-relief">
+    <polyline id="relief-eastern-mountains" class="relief" points="970,260 1030,350 1080,430 1140,520 1190,620 1220,700"><title>Montanhas Orientais — faixa mountain</title></polyline>
+    <polyline id="relief-grey-mountains" class="relief" points="1120,290 1180,360 1220,430 1250,500"><title>Montanhas Cinzentas — faixa alpine</title></polyline>
+    <polyline id="relief-eastern-hills" class="relief" points="780,340 850,360 930,390"><title>Colinas Orientais — faixa upland</title></polyline>
+    <polyline id="relief-western-hills" class="relief" points="520,440 560,500 590,560"><title>Colinas a oeste de Valgard — faixa upland</title></polyline>
   </g>
   <g id="layer-rivers">
-    <polyline id="river-lumen" class="river" points="1030,390 920,430 820,500 680,555 540,590 400,640"><title>Rio Lumen</title></polyline>
-    <text class="feature-label" x="680" y="537">Rio Lumen</text>
+    <polyline id="river-lumen" class="river" points="1040,360 960,400 870,455 760,515 650,555 530,590 410,625 335,640"><title>Rio Lumen</title></polyline>
+    <text class="feature-label" x="650" y="537">Rio Lumen</text>
   </g>
-  <g id="layer-regions">
-    <text id="region-central" class="region-label" x="720" y="500" text-anchor="middle">Terras Centrais</text>
-    <text id="region-west" class="region-label" x="330" y="570" text-anchor="middle">Costas do Oeste</text>
-    <text id="region-east" class="region-label" x="1130" y="485" text-anchor="middle">Montanhas Orientais</text>
-    <text id="region-plains" class="region-label" x="850" y="400" text-anchor="middle">Grandes Planícies</text>
-    <text id="region-south" class="region-label" x="720" y="790" text-anchor="middle">Deserto do Sul</text>
-    <text id="region-north" class="region-label" x="650" y="235" text-anchor="middle">Norte Congelado</text>
+  <g id="layer-region-labels">
+    <text id="label-region-central" class="region-label" x="690" y="520" text-anchor="middle">Terras Centrais</text>
+    <text id="label-region-west" class="region-label" x="300" y="520" text-anchor="middle">Costas do Oeste</text>
+    <text id="label-region-east" class="region-label" x="1120" y="500" text-anchor="middle">Montanhas Orientais</text>
+    <text id="label-region-plains" class="region-label" x="750" y="235" text-anchor="middle">Grandes Planícies</text>
+    <text id="label-region-south" class="region-label" x="790" y="795" text-anchor="middle">Deserto do Sul</text>
+    <text id="label-region-north" class="region-label" x="610" y="150" text-anchor="middle">Norte Congelado</text>
   </g>
   <g id="layer-settlements">
-    <g id="settlement-valgard"><circle class="settlement" cx="735" cy="520" r="9"/><text class="settlement-label" x="750" y="508">Valgard</text><title>Valgard — city</title></g>
-    <g id="settlement-fenhollow"><circle class="settlement" cx="520" cy="455" r="7"/><text class="settlement-label" x="535" y="443">Fenhollow</text><title>Fenhollow — town</title></g>
-    <g id="settlement-ashvale"><circle class="settlement" cx="890" cy="590" r="7"/><text class="settlement-label" x="905" y="578">Ashvale</text><title>Ashvale — town</title></g>
-    <g id="settlement-kragmoor"><circle class="settlement" cx="1070" cy="455" r="7"/><text class="settlement-label" x="1085" y="443">Kragmoor</text><title>Kragmoor — fortress</title></g>
-    <g id="settlement-thalmoor"><circle class="settlement" cx="330" cy="620" r="7"/><text class="settlement-label" x="345" y="608">Thalmoor</text><title>Thalmoor — port</title></g>
-    <g id="settlement-rhenmark"><circle class="settlement" cx="760" cy="355" r="7"/><text class="settlement-label" x="775" y="343">Rhenmark</text><title>Rhenmark — town</title></g>
-    <g id="settlement-xerath"><circle class="settlement" cx="720" cy="760" r="9"/><text class="settlement-label" x="735" y="748">Xerath</text><title>Xerath — city</title></g>
+    <g id="settlement-valgard"><circle class="settlement" cx="700" cy="520" r="7"/><text class="settlement-label" x="715" y="508">Valgard</text><title>Valgard — village — população aproximada: 600</title></g>
+    <g id="settlement-fenhollow"><circle class="settlement" cx="835" cy="410" r="7"/><text class="settlement-label" x="850" y="398">Fenhollow</text><title>Fenhollow — village — população aproximada: 350</title></g>
+    <g id="settlement-ashvale"><circle class="neutral" cx="885" cy="595" r="7"/><text class="settlement-label" x="900" y="583">Ashvale</text><title>Ashvale — meeting-place — população desconhecida</title></g>
+    <g id="settlement-kragmoor"><circle class="settlement" cx="1090" cy="500" r="7"/><text class="settlement-label" x="1105" y="488">Kragmoor</text><title>Kragmoor — fortress — população aproximada: 900</title></g>
+    <g id="settlement-thalmoor"><circle class="settlement" cx="300" cy="620" r="9"/><text class="settlement-label" x="315" y="608">Thalmoor</text><title>Thalmoor — port — população aproximada: 1200</title></g>
+    <g id="settlement-rhenmark"><circle class="settlement" cx="760" cy="235" r="7"/><text class="settlement-label" x="775" y="223">Rhenmark</text><title>Rhenmark — mobile-camp — população aproximada: 700</title></g>
+    <g id="settlement-xerath"><circle class="settlement" cx="760" cy="790" r="9"/><text class="settlement-label" x="775" y="778">Xerath</text><title>Xerath — oasis-city — população aproximada: 1500</title></g>
   </g>
-  <g id="layer-metadata"><text x="55" y="70" font-size="32" font-weight="700">Eldrath</text><text x="55" y="98" font-size="15">v001 · gerado automaticamente · dados cartográficos provisórios</text></g>
+  <g id="layer-metadata"><text x="55" y="70" font-size="32" font-weight="700">Eldrath</text><text x="55" y="98" font-size="15">v001 · Modelo do Mundo · cobertura: terras conhecidas</text><text x="55" y="122" font-size="13">linhas tracejadas: territórios e rotas · posições provisórias</text></g>
 </svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="map-title map-description">
+  <title id="map-title">Eldrath — Mundo Conhecido</title>
+  <desc id="map-description">Mapa cartográfico gerado automaticamente. Geometrias provisórias não alteram o cânone.</desc>
+  <defs><filter id="paper"><feTurbulence baseFrequency=".7" numOctaves="3" seed="17" result="noise"/><feBlend in="SourceGraphic" in2="noise" mode="multiply"/></filter></defs>
+  <style>text{font-family:Georgia,serif;fill:#29271f}.region-label{font-size:22px;letter-spacing:2px;opacity:.72}.feature-label{font-size:18px;font-style:italic}.settlement-label{font-size:17px;font-weight:700;paint-order:stroke;stroke:#f4eedc;stroke-width:4px;stroke-linejoin:round}.coast{fill:#d8cca5;stroke:#594f38;stroke-width:8;stroke-linejoin:round}.biome{stroke:none;opacity:.76}.river{fill:none;stroke:#4d88a2;stroke-width:9;stroke-linecap:round}.mountain-line{fill:none;stroke:#675c4d;stroke-width:5;stroke-dasharray:4 13;stroke-linecap:round}.settlement{fill:#352f25;stroke:#f4eedc;stroke-width:3}</style>
+  <g id="layer-background"><rect width="100%" height="100%" fill="#8eb6bd"/><rect x="26" y="26" width="1548" height="948" rx="10" fill="none" stroke="#e8e0c8" stroke-width="3" opacity=".7"/></g>
+  <g id="layer-continents">
+    <polygon id="continent-eldrath" class="coast" points="180,180 430,90 770,115 1080,190 1360,360 1290,650 1080,850 760,910 440,820 210,600"><title>Eldrath</title></polygon>
+  </g>
+  <g id="layer-biomes">
+    <polygon id="biome-north" class="biome" fill="#dce8e5" points="310,205 480,125 800,145 1080,220 1000,335 620,315 360,350"><title>Norte Congelado</title></polygon>
+    <polygon id="biome-ossandra" class="biome" fill="#557a52" points="280,385 510,320 690,390 650,595 400,650 250,535"><title>Floresta de Ossandra</title></polygon>
+    <polygon id="biome-plains" class="biome" fill="#b8bd75" points="680,335 1000,330 1110,610 880,715 650,590"><title>Grandes Planícies</title></polygon>
+    <polygon id="biome-xerath" class="biome" fill="#d8b66f" points="500,650 880,710 1080,825 690,875 430,790"><title>Deserto de Xerath</title></polygon>
+  </g>
+  <g id="layer-mountains">
+    <polyline id="mountains-grey" class="mountain-line" points="1010,285 1060,350 1100,420 1140,500 1180,580 1210,650"><title>Montanhas Cinzentas</title></polyline>
+    <text class="feature-label" x="1164" y="500">Montanhas Cinzentas</text>
+  </g>
+  <g id="layer-rivers">
+    <polyline id="river-lumen" class="river" points="1030,390 920,430 820,500 680,555 540,590 400,640"><title>Rio Lumen</title></polyline>
+    <text class="feature-label" x="680" y="537">Rio Lumen</text>
+  </g>
+  <g id="layer-regions">
+    <text id="region-central" class="region-label" x="720" y="500" text-anchor="middle">Terras Centrais</text>
+    <text id="region-west" class="region-label" x="330" y="570" text-anchor="middle">Costas do Oeste</text>
+    <text id="region-east" class="region-label" x="1130" y="485" text-anchor="middle">Montanhas Orientais</text>
+    <text id="region-plains" class="region-label" x="850" y="400" text-anchor="middle">Grandes Planícies</text>
+    <text id="region-south" class="region-label" x="720" y="790" text-anchor="middle">Deserto do Sul</text>
+    <text id="region-north" class="region-label" x="650" y="235" text-anchor="middle">Norte Congelado</text>
+  </g>
+  <g id="layer-settlements">
+    <g id="settlement-valgard"><circle class="settlement" cx="735" cy="520" r="9"/><text class="settlement-label" x="750" y="508">Valgard</text><title>Valgard — city</title></g>
+    <g id="settlement-fenhollow"><circle class="settlement" cx="520" cy="455" r="7"/><text class="settlement-label" x="535" y="443">Fenhollow</text><title>Fenhollow — town</title></g>
+    <g id="settlement-ashvale"><circle class="settlement" cx="890" cy="590" r="7"/><text class="settlement-label" x="905" y="578">Ashvale</text><title>Ashvale — town</title></g>
+    <g id="settlement-kragmoor"><circle class="settlement" cx="1070" cy="455" r="7"/><text class="settlement-label" x="1085" y="443">Kragmoor</text><title>Kragmoor — fortress</title></g>
+    <g id="settlement-thalmoor"><circle class="settlement" cx="330" cy="620" r="7"/><text class="settlement-label" x="345" y="608">Thalmoor</text><title>Thalmoor — port</title></g>
+    <g id="settlement-rhenmark"><circle class="settlement" cx="760" cy="355" r="7"/><text class="settlement-label" x="775" y="343">Rhenmark</text><title>Rhenmark — town</title></g>
+    <g id="settlement-xerath"><circle class="settlement" cx="720" cy="760" r="9"/><text class="settlement-label" x="735" y="748">Xerath</text><title>Xerath — city</title></g>
+  </g>
+  <g id="layer-metadata"><text x="55" y="70" font-size="32" font-weight="700">Eldrath</text><text x="55" y="98" font-size="15">v001 · gerado automaticamente · dados cartográficos provisórios</text></g>
+</svg>

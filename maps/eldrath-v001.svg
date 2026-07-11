@@ -109,5 +109,5 @@
     <polygon id="unknown-south" class="unknown" points="420,820 1080,800 1450,800 1600,850 1600,1000 410,1000"><title>Além do Deserto do Sul — extensão não mapeada</title></polygon>
     <text id="label-unknown-south" class="unknown-label" x="1093.33" y="878.333" text-anchor="middle">TERRAS DESCONHECIDAS</text>
   </g>
-  <g id="layer-metadata"><text x="380" y="54" font-size="32" font-weight="700">Eldrath</text><text x="380" y="82" font-size="15">snapshot 3.1.0 · stable · mundo conhecido</text><text x="380" y="106" font-size="13">fatos canônicos · geometrias e coordenadas aproximadas</text></g>
+  <g id="layer-metadata" data-world-engine="1.0.0" data-engine-status="stable"><text x="380" y="54" font-size="32" font-weight="700">Eldrath</text><text x="380" y="82" font-size="15">snapshot 3.1.0 · stable · World Engine 1.0.0</text><text x="380" y="106" font-size="13">fatos canônicos · geometrias e coordenadas aproximadas · 0 erros</text></g>
 </svg>

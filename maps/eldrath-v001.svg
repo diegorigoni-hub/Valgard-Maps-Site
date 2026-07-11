@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="map-title map-description">
   <title id="map-title">Eldrath — Mundo Conhecido</title>
-  <desc id="map-description">Mapa estruturado do mundo conhecido de Eldrath, gerado automaticamente. Limites e coordenadas são adaptações cartográficas.</desc>
-  <style>text{font-family:Georgia,serif;fill:#29271f}.region-label{font-size:20px;letter-spacing:2px;opacity:.76}.feature-label{font-size:16px;font-style:italic}.settlement-label{font-size:16px;font-weight:700;paint-order:stroke;stroke:#f4eedc;stroke-width:4px;stroke-linejoin:round}.landmass{fill:#d8cca5}.coast{fill:#d8cca5;stroke:#594f38;stroke-width:8;stroke-linejoin:round}.coastline{fill:none;stroke:#f0dfad;stroke-width:5;stroke-linecap:round}.bay{fill:#75a6b3;stroke:#315f73;stroke-width:3}.region{fill:none;stroke:#625d4c;stroke-width:2;stroke-dasharray:8 8;opacity:.55}.subregion{fill:#f2e4bd;stroke:#786d55;stroke-width:1.5;opacity:.18}.biome{stroke:none;opacity:.7}.territory{fill:none;stroke:#8d513d;stroke-width:3;stroke-dasharray:12 8;opacity:.7}.route{fill:none;stroke:#7b563f;stroke-width:4;stroke-dasharray:8 7;stroke-linecap:round;opacity:.72}.river{fill:none;stroke:#397c9b;stroke-width:9;stroke-linecap:round}.lake{fill:#4d88a2;stroke:#315f73;stroke-width:3}.relief{fill:none;stroke:#675c4d;stroke-width:5;stroke-dasharray:4 13;stroke-linecap:round}.settlement{fill:#352f25;stroke:#f4eedc;stroke-width:3}.neutral{fill:#f4eedc;stroke:#352f25;stroke-width:3}.natural-port{fill:#efe4c8;stroke:#315f73;stroke-width:4}.unknown{fill:#e9e5d8;fill-opacity:.82;stroke:#8f897c;stroke-width:3;stroke-dasharray:5 10}.unknown-label{font-size:19px;letter-spacing:2px;fill:#666156;paint-order:stroke;stroke:#f2efe5;stroke-width:5px}.proposal-area{fill:#b986c8;fill-opacity:.42;stroke:#713b83;stroke-width:4;stroke-dasharray:8 6}.proposal-line{fill:none;stroke:#713b83;stroke-width:5;stroke-dasharray:8 6;stroke-linecap:round}.proposal-point{fill:#d9b6e3;stroke:#713b83;stroke-width:4}</style>
-  <g id="layer-oceans"><rect width="100%" height="100%" fill="#8eb6bd"><title>Mar Vesperino · Mar Sem Fim</title></rect></g>
+  <desc id="map-description">Mapa estruturado do mundo conhecido de Eldrath. Fatos vêm do Notion ativo; geometrias e coordenadas são adaptações cartográficas.</desc>
+  <defs><linearGradient id="vesperine-transition" x1="0" x2="1"><stop offset="0" stop-color="#6f9eae"/><stop offset="1" stop-color="#a3c4c5"/></linearGradient></defs>
+  <style>text{font-family:Georgia,serif;fill:#29271f}.water-ocean{fill:#557f91}.water-sea{fill:url(#vesperine-transition)}.water-label{font-size:16px;letter-spacing:2px;fill:#eef5f2;opacity:.92}.region-label{font-size:20px;letter-spacing:2px;opacity:.76}.feature-label{font-size:16px;font-style:italic}.settlement-label{font-size:16px;font-weight:700;paint-order:stroke;stroke:#f4eedc;stroke-width:4px;stroke-linejoin:round}.landmass{fill:#d8cca5}.coast{fill:#d8cca5;stroke:#594f38;stroke-width:8;stroke-linejoin:round}.coastline{fill:none;stroke:#f0dfad;stroke-width:5;stroke-linecap:round}.bay{fill:#75a6b3;stroke:#315f73;stroke-width:3}.region{fill:none;stroke:#625d4c;stroke-width:2;stroke-dasharray:8 8;opacity:.55}.subregion{fill:#f2e4bd;stroke:#786d55;stroke-width:1.5;opacity:.18}.biome{stroke:none;opacity:.7}.territory{fill:none;stroke:#8d513d;stroke-width:3;stroke-dasharray:12 8;opacity:.7}.route{fill:none;stroke:#7b563f;stroke-width:4;stroke-dasharray:8 7;stroke-linecap:round;opacity:.72}.river{fill:none;stroke:#397c9b;stroke-width:9;stroke-linecap:round}.lake{fill:#4d88a2;stroke:#315f73;stroke-width:3}.relief{fill:none;stroke:#675c4d;stroke-width:5;stroke-dasharray:4 13;stroke-linecap:round}.settlement{fill:#352f25;stroke:#f4eedc;stroke-width:3}.neutral{fill:#f4eedc;stroke:#352f25;stroke-width:3}.natural-port{fill:#efe4c8;stroke:#315f73;stroke-width:4}.unknown{fill:#e9e5d8;fill-opacity:.82;stroke:#8f897c;stroke-width:2;stroke-dasharray:5 12}.unknown-label{font-size:19px;letter-spacing:2px;fill:#666156;paint-order:stroke;stroke:#f2efe5;stroke-width:5px}.legendary-note{font-size:14px;font-style:italic;fill:#6d614d;paint-order:stroke;stroke:#f4eedc;stroke-width:4px}</style>
+  <g id="layer-oceans">
+    <polygon id="ocean-endless" class="water-ocean" points="0,0 95,0 95,1000 0,1000"><title>Mar Sem Fim</title></polygon>
+    <text id="label-ocean-endless" class="water-label" x="48" y="500" text-anchor="middle" transform="rotate(-90 48 500)">Mar Sem Fim</text>
+  </g>
+  <g id="layer-seas">
+    <polygon id="sea-vesperine" class="water-sea" points="65,0 350,0 350,1000 65,1000"><title>Mar Vesperino — sem fronteira física exata</title></polygon>
+    <text id="label-sea-vesperine" class="water-label" x="145" y="500" text-anchor="middle" transform="rotate(-90 145 500)">Mar Vesperino</text>
+  </g>
   <g id="layer-background"><rect x="26" y="26" width="1548" height="948" rx="10" fill="none" stroke="#e8e0c8" stroke-width="3" opacity=".7"/></g>
   <g id="layer-continents">
     <polygon id="continent-eldrath" class="landmass" points="190,0 1600,0 1600,1000 410,1000 300,880 250,760 210,600 185,420 190,300"><title>Eldrath</title></polygon>
@@ -45,26 +53,26 @@
     <polygon id="territory-ashvale" class="territory" points="810,540 950,520 970,650 850,680"><title>Vale neutro de Ashvale</title></polygon>
   </g>
   <g id="layer-lakes">
-    <polygon id="lake-winds" class="lake" points="620,205 660,185 710,205 700,240 650,245"><title>Lago dos Ventos</title></polygon>
+    <polygon id="lake-winds" class="lake" points="620,205 660,185 710,205 700,240 650,245"><title>Lago dos Ventos — seasonal</title></polygon>
   </g>
   <g id="layer-routes">
-    <polyline id="route-valgard-fenhollow" class="route" points="700,520 760,475 835,410"><title>Trilha Valgard–Fenhollow — 1 dia(s)</title></polyline>
-    <polyline id="route-valgard-ashvale" class="route" points="700,520 790,560 885,595"><title>Trilha Valgard–Ashvale — 1 dia(s)</title></polyline>
-    <polyline id="route-valgard-kragmoor" class="route" points="700,520 835,410 970,440 1090,500"><title>Rota Valgard–Kragmoor — 3–4 dias</title></polyline>
-    <polyline id="route-valgard-thalmoor" class="route" points="700,520 560,560 430,590 300,620"><title>Rota Valgard–Thalmoor — 4–5 dias</title></polyline>
-    <polyline id="route-thalmoor-xerath" class="route" points="300,620 420,720 580,790 760,790"><title>Rota Terrestre Costeira Thalmoor–Xerath — 7–10 dias</title></polyline>
-    <polyline id="route-lumen-fluvial" class="route" points="700,520 650,555 530,590 410,625 335,640 300,620"><title>Rota Fluvial do Lumen — 2–3 dias</title></polyline>
-    <polyline id="route-thalmoor-xerath-maritime" class="route" points="300,620 330,710 460,820 620,850 760,790"><title>Rota Marítima Thalmoor–Xerath — 3–5 dias</title></polyline>
+    <polyline id="route-valgard-fenhollow" class="route" points="700,520 760,475 835,410"><title>Trilha Valgard–Fenhollow — ida 1 travel-day; volta 1 travel-day; distância 20–28 km</title></polyline>
+    <polyline id="route-valgard-ashvale" class="route" points="700,520 790,560 885,595"><title>Trilha Valgard–Ashvale — ida 1 travel-day; volta 1 travel-day; distância 20–28 km</title></polyline>
+    <polyline id="route-valgard-kragmoor" class="route" points="700,520 835,410 970,440 1090,500"><title>Rota Valgard–Kragmoor — ida 3–4 travel-day; volta 3–4 travel-day; distância 48–72 km</title></polyline>
+    <polyline id="route-valgard-thalmoor" class="route" points="700,520 560,560 430,590 300,620"><title>Rota Valgard–Thalmoor — ida 4–5 travel-day; volta 4–5 travel-day; distância 80–120 km</title></polyline>
+    <polyline id="route-thalmoor-xerath" class="route" points="300,620 420,720 580,790 760,790"><title>Rota Terrestre Costeira Thalmoor–Xerath — ida 7–10 travel-day; volta 7–10 travel-day; distância 150–240 km</title></polyline>
+    <polyline id="route-lumen-fluvial" class="route" points="700,520 650,555 530,590 410,625 335,640 300,620"><title>Rota Fluvial do Lumen — ida 2–3 travel-day; volta 3–5 travel-day; distância 70–110 km</title></polyline>
+    <polyline id="route-thalmoor-xerath-maritime" class="route" points="300,620 330,710 460,820 620,850 760,790"><title>Rota Marítima Thalmoor–Xerath — ida 3–5 travel-day; volta 3–5 travel-day; distância 180–320 km</title></polyline>
   </g>
   <g id="layer-relief">
-    <polyline id="relief-eastern-mountains" class="relief" points="970,260 1030,350 1080,430 1140,520 1190,620 1220,700"><title>Montanhas Orientais — faixa mountain</title></polyline>
-    <polyline id="relief-grey-mountains" class="relief" points="1120,290 1180,360 1220,430 1250,500"><title>Montanhas Cinzentas — faixa alpine</title></polyline>
-    <polyline id="relief-eastern-hills" class="relief" points="780,340 850,360 930,390"><title>Colinas Orientais — faixa upland</title></polyline>
-    <polyline id="relief-western-hills" class="relief" points="520,440 560,500 590,560"><title>Colinas a oeste de Valgard — faixa upland</title></polyline>
-    <polyline id="relief-valgard-valley" class="relief" points="640,500 700,540 780,580"><title>Vale de Valgard — faixa lowland</title></polyline>
-    <polyline id="relief-ashvale-valley" class="relief" points="820,560 880,600 940,630"><title>Vale de Ashvale — faixa lowland</title></polyline>
-    <polyline id="relief-vigil-peak" class="relief" points="1190,340 1210,305 1230,340"><title>Pico da Vigília — faixa alpine</title></polyline>
-    <polyline id="relief-kragmoor-plateau" class="relief" points="1030,455 1100,440 1160,480 1100,530 1030,510"><title>Planalto de Kragmoor — faixa mountain</title></polyline>
+    <polyline id="relief-eastern-mountains" class="relief" points="970,260 1030,350 1080,430 1140,520 1190,620 1220,700"><title>Montanhas Orientais — altitude não definida</title></polyline>
+    <polyline id="relief-grey-mountains" class="relief" points="1120,290 1180,360 1220,430 1250,500"><title>Montanhas Cinzentas — altitude não definida</title></polyline>
+    <polyline id="relief-eastern-hills" class="relief" points="780,340 850,360 930,390"><title>Colinas Orientais — altitude não definida</title></polyline>
+    <polyline id="relief-western-hills" class="relief" points="520,440 560,500 590,560"><title>Colinas a oeste de Valgard — altitude não definida</title></polyline>
+    <polyline id="relief-valgard-valley" class="relief" points="640,500 700,540 780,580"><title>Vale de Valgard — altitude não definida</title></polyline>
+    <polyline id="relief-ashvale-valley" class="relief" points="820,560 880,600 940,630"><title>Vale de Ashvale — altitude não definida</title></polyline>
+    <polyline id="relief-vigil-peak" class="relief" points="1190,340 1210,305 1230,340"><title>Pico da Vigília — altitude não definida</title></polyline>
+    <polyline id="relief-kragmoor-plateau" class="relief" points="1030,455 1100,440 1160,480 1100,530 1030,510"><title>Planalto de Kragmoor — altitude não definida</title></polyline>
   </g>
   <g id="layer-rivers">
     <polyline id="river-lumen" class="river" points="1040,360 960,400 870,455 760,515 650,555 530,590 410,625 335,640"><title>Rio Lumen</title></polyline>
@@ -92,7 +100,8 @@
   <g id="layer-natural-ports">
     <circle id="natural-port-thalmoor" class="natural-port" cx="300" cy="620" r="6"><title>Porto Natural de Thalmoor</title></circle>
   </g>
-  <g id="layer-proposals">
+  <g id="layer-legendary">
+    <text id="legend-islands-glass" class="legendary-note" x="980" y="920">LENDÁRIO · Arquipélago de Vidro · localização desconhecida</text>
   </g>
   <g id="layer-unknown-regions">
     <polygon id="unknown-east" class="unknown" points="1220,90 1600,90 1600,850 1450,800 1350,650 1390,470 1320,260"><title>Além das Montanhas Orientais — extensão não mapeada</title></polygon>
@@ -100,5 +109,5 @@
     <polygon id="unknown-south" class="unknown" points="420,820 1080,800 1450,800 1600,850 1600,1000 410,1000"><title>Além do Deserto do Sul — extensão não mapeada</title></polygon>
     <text id="label-unknown-south" class="unknown-label" x="1093.33" y="878.333" text-anchor="middle">TERRAS DESCONHECIDAS</text>
   </g>
-  <g id="layer-metadata"><text x="55" y="70" font-size="32" font-weight="700">Eldrath</text><text x="55" y="98" font-size="15">v001 · Modelo do Mundo · cobertura: terras conhecidas</text><text x="55" y="122" font-size="13">geografia aprovada · coordenadas e traçados: adaptações cartográficas</text></g>
+  <g id="layer-metadata"><text x="380" y="54" font-size="32" font-weight="700">Eldrath</text><text x="380" y="82" font-size="15">snapshot 3.1.0 · stable · mundo conhecido</text><text x="380" y="106" font-size="13">fatos canônicos · geometrias e coordenadas aproximadas</text></g>
 </svg>

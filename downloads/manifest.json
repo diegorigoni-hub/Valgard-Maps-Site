@@ -31,22 +31,22 @@
       "path": "exports/eldrath-v001/eldrath-v001-print.zip",
       "publicPath": "downloads/eldrath-v001-print.zip",
       "mediaType": "application/zip",
-      "bytes": 1011443,
-      "sha256": "df5f834cd9a6759d8baa526167983fe38eefd3d31ff69139be4c681c32e0a8b2"
+      "bytes": 1011440,
+      "sha256": "1edb22ac89cc4de74221e9cfe0b1f718bdf133ce35ee75878f01bde8d6909090"
     },
     {
       "path": "exports/eldrath-v001/eldrath-v001.geojson",
       "publicPath": "downloads/eldrath-v001.geojson",
       "mediaType": "application/geo+json",
-      "bytes": 63399,
-      "sha256": "2ebb8543bc6ab0ded2f046f47afdd64a6995d7dd9260591868840ee913c7ba9a"
+      "bytes": 63396,
+      "sha256": "6308829659bfa22d9f129c3e6d7ae81980f7056ad1b445e6cc861339bf309726"
     },
     {
       "path": "site/maps/eldrath-v001.svg",
       "publicPath": "maps/eldrath-v001.svg",
       "mediaType": "image/svg+xml",
-      "bytes": 36904,
-      "sha256": "6842c11fcb164a0e7165a83aed4514399cb76b28a8dab358503f27eeba7ff5c5"
+      "bytes": 36901,
+      "sha256": "e16f384d26c7019c38197c44e3a174653feb7791e2bdd60b100760d13a04b105"
     }
   ]
 }

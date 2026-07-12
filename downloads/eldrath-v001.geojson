@@ -374,7 +374,7 @@
       },
       "properties": {
         "id": "biome-xerath",
-        "name": "Deserto de Xerath",
+        "name": "Deserto do Sul",
         "type": "biome",
         "collection": "biomes",
         "source": "canonical",

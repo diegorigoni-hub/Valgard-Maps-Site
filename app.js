@@ -11,6 +11,7 @@
   const layerGroups = {biomes:["layer-biomes"],territories:["layer-territories"],regions:["layer-regions","layer-region-labels"],routes:["layer-routes"],hydrology:["layer-lakes","layer-rivers"],relief:["layer-relief"],settlements:["layer-settlements","layer-natural-ports"],unknown:["layer-unknown-regions"]};
   let features = new Map(), atlasByEntity = new Map(), sceneByEntity = new Map(), svg, view = [...fullView], drag, selectedFeatureId, selectedTarget;
   const setStatus = message => { status.textContent = message; };
+  const getSvgElement = id => object.contentDocument?.getElementById(id);
   const setView = next => {
     const width = Math.max(220, Math.min(fullView[2], next[2]));
     const height = width / 1.6;
@@ -36,7 +37,7 @@
     term.textContent=label;description.textContent=value;list.append(term,description);
   };
   const showFeature = id => {
-    const feature=features.get(id),target=svg?.getElementById(id); if(!feature||!target)return;
+    const feature=features.get(id),target=getSvgElement(id); if(!feature||!target)return;
     if(selectedTarget)selectedTarget.style.filter="";selectedTarget=target;selectedTarget.style.filter="drop-shadow(0 0 8px #f2d98f)";selectedFeatureId=id;
     const box=target.getBBox(),width=Math.max(300,box.width*2.4),height=width/1.6;
     setView([box.x+box.width/2-width/2,box.y+box.height/2-height/2,width,height]);
@@ -51,7 +52,7 @@
     writeState();setStatus(`${p.name} selecionado.`);
   };
   const findFeatureId = target => { let node=target; while(node&&node!==svg){if(node.id&&features.has(node.id))return node.id;node=node.parentElement;} return null; };
-  const applyLayer = (input,persist=false) => { for(const id of layerGroups[input.dataset.layer]||[]){const group=svg?.getElementById(id);if(group)group.hidden=!input.checked;} if(svg)setStatus(`Camada ${input.labels[0].textContent.trim()} ${input.checked?"visível":"oculta"}.`);if(persist)writeState(); };
+  const applyLayer = (input,persist=false) => { for(const id of layerGroups[input.dataset.layer]||[]){const group=getSvgElement(id);if(group)group.hidden=!input.checked;} if(svg)setStatus(`Camada ${input.labels[0].textContent.trim()} ${input.checked?"visível":"oculta"}.`);if(persist)writeState(); };
   async function initialize(){
     const [geoResponse,atlasResponse,sceneResponse]=await Promise.all([fetch("downloads/eldrath-v001.geojson"),fetch("data/atlas.json"),fetch("data/scenes.json")]);
     if(!geoResponse.ok)throw new Error("GeoJSON indisponível");if(!atlasResponse.ok)throw new Error("Atlas indisponível");if(!sceneResponse.ok)throw new Error("Registro 3D indisponível");

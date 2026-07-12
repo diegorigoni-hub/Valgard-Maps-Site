@@ -33,10 +33,21 @@
         <section class="panel">
           <h2>Localizar</h2>
           <form id="feature-form" class="search-form">
+            <label for="feature-category">Categoria</label>
+            <select id="feature-category">
+              <option value="all">Todas</option>
+              <option value="settlements">Assentamentos</option>
+              <option value="regions">Regiões</option>
+              <option value="rivers">Rios</option>
+              <option value="relief">Relevo</option>
+              <option value="routes">Rotas</option>
+              <option value="unknownRegions">Terras desconhecidas</option>
+            </select>
             <label for="feature-search">Nome do elemento</label>
             <input id="feature-search" list="feature-options" autocomplete="off">
             <datalist id="feature-options"></datalist>
             <button type="submit">Localizar no mapa</button>
+            <button id="clear-selection" type="button">Limpar seleção</button>
           </form>
         </section>
         <section class="panel">

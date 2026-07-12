@@ -1,5 +1,5 @@
 {
-  "contractVersion": "1.1.0",
+  "contractVersion": "1.2.0",
   "mapId": "eldrath-v001",
   "snapshotVersion": "3.2.0",
   "evaluationDate": "2026-07-12",
@@ -405,7 +405,31 @@
       "period": "atemporal",
       "chapterRefs": [],
       "eventRefs": [],
-      "characterRefs": []
+      "characterRefs": [],
+      "travel": {
+        "routeClass": "terrestrial",
+        "travelDays": {
+          "unit": "travel-day",
+          "minimum": 1,
+          "maximum": 1,
+          "status": "known"
+        },
+        "reverseTravelDays": {
+          "unit": "travel-day",
+          "minimum": 1,
+          "maximum": 1,
+          "status": "known"
+        },
+        "distance": {
+          "unit": "km",
+          "minimum": 20,
+          "maximum": 28,
+          "status": "known"
+        },
+        "availability": "year-round",
+        "riskLevel": "low",
+        "routeFunction": "ligação de vizinhança e abastecimento"
+      }
     },
     {
       "id": "atlas-route-valgard-ashvale",
@@ -424,7 +448,31 @@
       "period": "atemporal",
       "chapterRefs": [],
       "eventRefs": [],
-      "characterRefs": []
+      "characterRefs": [],
+      "travel": {
+        "routeClass": "terrestrial",
+        "travelDays": {
+          "unit": "travel-day",
+          "minimum": 1,
+          "maximum": 1,
+          "status": "known"
+        },
+        "reverseTravelDays": {
+          "unit": "travel-day",
+          "minimum": 1,
+          "maximum": 1,
+          "status": "known"
+        },
+        "distance": {
+          "unit": "km",
+          "minimum": 20,
+          "maximum": 28,
+          "status": "known"
+        },
+        "availability": "year-round",
+        "riskLevel": "low",
+        "routeFunction": "ligação de vizinhança e encontro neutro"
+      }
     },
     {
       "id": "atlas-route-valgard-kragmoor",
@@ -443,7 +491,31 @@
       "period": "atemporal",
       "chapterRefs": [],
       "eventRefs": [],
-      "characterRefs": []
+      "characterRefs": [],
+      "travel": {
+        "routeClass": "terrestrial",
+        "travelDays": {
+          "unit": "travel-day",
+          "minimum": 3,
+          "maximum": 4,
+          "status": "known"
+        },
+        "reverseTravelDays": {
+          "unit": "travel-day",
+          "minimum": 3,
+          "maximum": 4,
+          "status": "known"
+        },
+        "distance": {
+          "unit": "km",
+          "minimum": 48,
+          "maximum": 72,
+          "status": "known"
+        },
+        "availability": "seasonal",
+        "riskLevel": "high",
+        "routeFunction": "mineração, comércio e acesso militar"
+      }
     },
     {
       "id": "atlas-route-valgard-thalmoor-land",
@@ -462,7 +534,31 @@
       "period": "atemporal",
       "chapterRefs": [],
       "eventRefs": [],
-      "characterRefs": []
+      "characterRefs": [],
+      "travel": {
+        "routeClass": "terrestrial",
+        "travelDays": {
+          "unit": "travel-day",
+          "minimum": 4,
+          "maximum": 5,
+          "status": "known"
+        },
+        "reverseTravelDays": {
+          "unit": "travel-day",
+          "minimum": 4,
+          "maximum": 5,
+          "status": "known"
+        },
+        "distance": {
+          "unit": "km",
+          "minimum": 80,
+          "maximum": 120,
+          "status": "known"
+        },
+        "availability": "year-round",
+        "riskLevel": "moderate",
+        "routeFunction": "eixo terrestre entre interior e costa"
+      }
     },
     {
       "id": "atlas-route-lumen",
@@ -482,7 +578,31 @@
       "period": "atemporal",
       "chapterRefs": [],
       "eventRefs": [],
-      "characterRefs": []
+      "characterRefs": [],
+      "travel": {
+        "routeClass": "fluvial",
+        "travelDays": {
+          "unit": "travel-day",
+          "minimum": 2,
+          "maximum": 3,
+          "status": "known"
+        },
+        "reverseTravelDays": {
+          "unit": "travel-day",
+          "minimum": 3,
+          "maximum": 5,
+          "status": "known"
+        },
+        "distance": {
+          "unit": "km",
+          "minimum": 70,
+          "maximum": 110,
+          "status": "known"
+        },
+        "availability": "seasonal",
+        "riskLevel": "moderate",
+        "routeFunction": "transporte fluvial raso entre interior e porto"
+      }
     },
     {
       "id": "atlas-route-thalmoor-xerath-land",
@@ -501,7 +621,31 @@
       "period": "atemporal",
       "chapterRefs": [],
       "eventRefs": [],
-      "characterRefs": []
+      "characterRefs": [],
+      "travel": {
+        "routeClass": "terrestrial",
+        "travelDays": {
+          "unit": "travel-day",
+          "minimum": 7,
+          "maximum": 10,
+          "status": "known"
+        },
+        "reverseTravelDays": {
+          "unit": "travel-day",
+          "minimum": 7,
+          "maximum": 10,
+          "status": "known"
+        },
+        "distance": {
+          "unit": "km",
+          "minimum": 150,
+          "maximum": 240,
+          "status": "known"
+        },
+        "availability": "year-round",
+        "riskLevel": "high",
+        "routeFunction": "comércio costeiro terrestre"
+      }
     },
     {
       "id": "atlas-route-thalmoor-xerath-sea",
@@ -521,7 +665,31 @@
       "period": "atemporal",
       "chapterRefs": [],
       "eventRefs": [],
-      "characterRefs": []
+      "characterRefs": [],
+      "travel": {
+        "routeClass": "maritime",
+        "travelDays": {
+          "unit": "travel-day",
+          "minimum": 3,
+          "maximum": 5,
+          "status": "known"
+        },
+        "reverseTravelDays": {
+          "unit": "travel-day",
+          "minimum": 3,
+          "maximum": 5,
+          "status": "known"
+        },
+        "distance": {
+          "unit": "km",
+          "minimum": 180,
+          "maximum": 320,
+          "status": "known"
+        },
+        "availability": "seasonal",
+        "riskLevel": "high",
+        "routeFunction": "comércio marítimo costeiro"
+      }
     }
   ]
 }

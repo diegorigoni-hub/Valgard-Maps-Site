@@ -9,7 +9,7 @@
   const layerInputs = [...document.querySelectorAll("[data-layer]")];
   const fullView = [0, 0, 1600, 1000];
   const layerGroups = {biomes:["layer-biomes"],territories:["layer-territories"],regions:["layer-regions","layer-region-labels"],routes:["layer-routes"],hydrology:["layer-lakes","layer-rivers"],relief:["layer-relief"],settlements:["layer-settlements","layer-natural-ports"],unknown:["layer-unknown-regions"]};
-  let features = new Map(), svg, view = [...fullView], drag, selectedFeatureId, selectedTarget;
+  let features = new Map(), atlasByEntity = new Map(), svg, view = [...fullView], drag, selectedFeatureId, selectedTarget;
   const setStatus = message => { status.textContent = message; };
   const setView = next => {
     const width = Math.max(220, Math.min(fullView[2], next[2]));
@@ -43,14 +43,18 @@
     const p=feature.properties,title=document.createElement("h2"),list=document.createElement("dl");
     title.textContent=p.name;list.className="detail-list";addDetail(list,"Categoria",p.type);addDetail(list,"Precisão",p.precision);addDetail(list,"Geometria","adaptação cartográfica");
     if(p.collection==="routes"){addDetail(list,"Distância",formatRange(p.distance));addDetail(list,"Viagem",formatRange(p.travelDays));}
-    detail.replaceChildren(title,list);
+    const atlasEntry=atlasByEntity.get(id),atlasLink=document.createElement("a");
+    if(atlasEntry){atlasLink.href=`atlas.html#entry=${encodeURIComponent(atlasEntry.id)}`;atlasLink.textContent="Abrir ficha no atlas";}
+    detail.replaceChildren(title,list,...(atlasEntry?[atlasLink]:[]));
     writeState();setStatus(`${p.name} selecionado.`);
   };
   const findFeatureId = target => { let node=target; while(node&&node!==svg){if(node.id&&features.has(node.id))return node.id;node=node.parentElement;} return null; };
   const applyLayer = (input,persist=false) => { for(const id of layerGroups[input.dataset.layer]||[]){const group=svg?.getElementById(id);if(group)group.hidden=!input.checked;} if(svg)setStatus(`Camada ${input.labels[0].textContent.trim()} ${input.checked?"visível":"oculta"}.`);if(persist)writeState(); };
   async function initialize(){
-    const response=await fetch("downloads/eldrath-v001.geojson");if(!response.ok)throw new Error("GeoJSON indisponível");
-    const geojson=await response.json();features=new Map(geojson.features.map(feature=>[feature.id,feature]));
+    const [geoResponse,atlasResponse]=await Promise.all([fetch("downloads/eldrath-v001.geojson"),fetch("data/atlas.json")]);
+    if(!geoResponse.ok)throw new Error("GeoJSON indisponível");if(!atlasResponse.ok)throw new Error("Atlas indisponível");
+    const [geojson,atlas]=await Promise.all([geoResponse.json(),atlasResponse.json()]);features=new Map(geojson.features.map(feature=>[feature.id,feature]));
+    atlasByEntity=new Map();for(const entry of atlas.entries)for(const entityId of entry.mapEntityIds)if(!atlasByEntity.has(entityId))atlasByEntity.set(entityId,entry);
     rebuildSuggestions();
     svg=object.contentDocument?.documentElement;if(!svg)throw new Error("SVG indisponível");svg.setAttribute("tabindex","0");svg.setAttribute("aria-label","Mapa interativo de Eldrath");setView(fullView);
     const doc=object.contentDocument;

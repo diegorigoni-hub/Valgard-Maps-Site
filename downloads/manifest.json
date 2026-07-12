@@ -17,22 +17,22 @@
       "path": "exports/eldrath-v001/eldrath-v001-1600x1000.png",
       "publicPath": "downloads/eldrath-v001-1600x1000.png",
       "mediaType": "image/png",
-      "bytes": 328234,
-      "sha256": "1a39151ff9ba1bc59f4e88b29ef2212cc748498ed4467de8ea2eede0d2e70b4c"
+      "bytes": 629728,
+      "sha256": "edfc5326b4c9371c01a59be11a89de40a499c0f98e78977b78c03a5a8e069f69"
     },
     {
       "path": "exports/eldrath-v001/eldrath-v001-3200x2000.png",
       "publicPath": "downloads/eldrath-v001-3200x2000.png",
       "mediaType": "image/png",
-      "bytes": 973890,
-      "sha256": "9cd4f4b0dd8d64725b7e5093a9b7ac22871c4d212a21552ca5bf6e8e831d08b0"
+      "bytes": 1735589,
+      "sha256": "69b60f686ac6a0c808a3d293d1f6edfd2ce84a87536402e5f53748e6ed70ac1a"
     },
     {
       "path": "exports/eldrath-v001/eldrath-v001-print.zip",
       "publicPath": "downloads/eldrath-v001-print.zip",
       "mediaType": "application/zip",
-      "bytes": 1011440,
-      "sha256": "1edb22ac89cc4de74221e9cfe0b1f718bdf133ce35ee75878f01bde8d6909090"
+      "bytes": 1773139,
+      "sha256": "218323b548f00f721037ceb8a1da2dbe7c93281608b84cb8342bd0f37080c7fb"
     },
     {
       "path": "exports/eldrath-v001/eldrath-v001.geojson",

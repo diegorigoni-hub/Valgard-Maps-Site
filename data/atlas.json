@@ -1,5 +1,5 @@
 {
-  "contractVersion": "1.0.0",
+  "contractVersion": "1.1.0",
   "mapId": "eldrath-v001",
   "snapshotVersion": "3.2.0",
   "evaluationDate": "2026-07-12",
@@ -75,6 +75,448 @@
       ],
       "themes": [
         "desconhecido"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-fenhollow",
+      "title": "Fenhollow",
+      "kind": "place",
+      "summary": "Vilarejo das Terras Centrais próximo às Colinas Orientais, ligado a Valgard e ao riacho que sustenta seus campos e hortas.",
+      "mapEntityIds": [
+        "settlement-fenhollow",
+        "territory-fenhollow",
+        "river-fenhollow"
+      ],
+      "themes": [
+        "assentamentos",
+        "rios"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-ashvale",
+      "title": "Ashvale",
+      "kind": "place",
+      "summary": "Vale neutro entre territórios conhecidos, marcado por antigas pedras verticais e sem domínio confirmado de um clã.",
+      "mapEntityIds": [
+        "settlement-ashvale",
+        "territory-ashvale",
+        "subregion-ashvale-valley"
+      ],
+      "themes": [
+        "assentamentos",
+        "vales"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-kragmoor",
+      "title": "Kragmoor",
+      "kind": "place",
+      "summary": "Fortaleza-mina instalada no Planalto de Kragmoor, junto aos acessos conhecidos das Montanhas Orientais.",
+      "mapEntityIds": [
+        "settlement-kragmoor",
+        "territory-kragmoor",
+        "relief-kragmoor-plateau"
+      ],
+      "themes": [
+        "assentamentos",
+        "relevo"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-rhenmark",
+      "title": "Rhenmark",
+      "kind": "place",
+      "summary": "Povoado móvel das Grandes Planícies, cujos acampamentos acompanham pastagens, ventos e a variação sazonal do Lago dos Ventos.",
+      "mapEntityIds": [
+        "settlement-rhenmark",
+        "territory-rhenmark",
+        "lake-winds"
+      ],
+      "themes": [
+        "assentamentos",
+        "planícies"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-xerath",
+      "title": "Xerath",
+      "kind": "place",
+      "summary": "Cidade-oásis ligada às rotas de caravana e ao setor conhecido do Deserto do Sul sob influência do clã.",
+      "mapEntityIds": [
+        "settlement-xerath",
+        "territory-xerath",
+        "biome-xerath"
+      ],
+      "themes": [
+        "assentamentos",
+        "deserto"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-vesperine",
+      "title": "Mar Vesperino",
+      "kind": "place",
+      "summary": "Mar costeiro conhecido e navegável que banha as Costas do Oeste e sustenta pesca, comércio e navegação próxima à costa.",
+      "mapEntityIds": [
+        "sea-vesperine",
+        "coast-west"
+      ],
+      "themes": [
+        "mares",
+        "viagem"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-endless-sea",
+      "title": "Mar Sem Fim",
+      "kind": "place",
+      "summary": "Zona oceânica além das rotas regulares do Mar Vesperino, sem fronteira física precisa e sem travessia completa documentada.",
+      "mapEntityIds": [
+        "ocean-endless"
+      ],
+      "themes": [
+        "mares",
+        "desconhecido"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-thalmoor-bay",
+      "title": "Baía de Thalmoor",
+      "kind": "place",
+      "summary": "Enseada naturalmente protegida do Mar Vesperino onde se encontra o porto marítimo de Thalmoor.",
+      "mapEntityIds": [
+        "bay-thalmoor",
+        "natural-port-thalmoor",
+        "settlement-thalmoor"
+      ],
+      "themes": [
+        "mares",
+        "assentamentos"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-ossandra",
+      "title": "Floresta de Ossandra",
+      "kind": "place",
+      "summary": "Grande floresta mista das Terras Centrais, presente entre os caminhos e territórios próximos de Valgard e Fenhollow.",
+      "mapEntityIds": [
+        "biome-ossandra"
+      ],
+      "themes": [
+        "florestas",
+        "biomas"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-great-plains",
+      "title": "Grandes Planícies",
+      "kind": "place",
+      "summary": "Região aberta e ventosa ao norte das Terras Centrais, marcada por pastagens, deslocamentos de Rhenmark e águas sazonais.",
+      "mapEntityIds": [
+        "region-plains"
+      ],
+      "themes": [
+        "planícies",
+        "regiões"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-eastern-mountains",
+      "title": "Montanhas Orientais",
+      "kind": "place",
+      "summary": "Barreira montanhosa contínua no horizonte leste, fonte do Rio Lumen e influência qualitativa sobre a distribuição de umidade.",
+      "mapEntityIds": [
+        "relief-eastern-mountains"
+      ],
+      "themes": [
+        "montanhas",
+        "relevo"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-grey-mountains",
+      "title": "Montanhas Cinzentas",
+      "kind": "place",
+      "summary": "Cordilheira remota das Montanhas Orientais, pouco percorrida e associada a relatos de retorno incerto.",
+      "mapEntityIds": [
+        "relief-grey-mountains"
+      ],
+      "themes": [
+        "montanhas",
+        "desconhecido"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-southern-desert",
+      "title": "Deserto do Sul",
+      "kind": "place",
+      "summary": "Região meridional quente e seca, com noites frias e aridez associada a múltiplos fatores naturais.",
+      "mapEntityIds": [
+        "biome-xerath",
+        "region-south"
+      ],
+      "themes": [
+        "deserto",
+        "biomas"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-winds-lake",
+      "title": "Lago dos Ventos",
+      "kind": "place",
+      "summary": "Lago sazonal das Grandes Planícies cuja extensão varia com degelo, chuvas e períodos secos.",
+      "mapEntityIds": [
+        "lake-winds",
+        "region-plains"
+      ],
+      "themes": [
+        "lagos",
+        "planícies"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-fenhollow-stream",
+      "title": "Riacho de Fenhollow",
+      "kind": "place",
+      "summary": "Afluente do Rio Lumen que nasce nas Colinas Orientais e atravessa as terras próximas de Fenhollow.",
+      "mapEntityIds": [
+        "river-fenhollow",
+        "river-lumen"
+      ],
+      "themes": [
+        "rios",
+        "assentamentos"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-vigil-peak",
+      "title": "Pico da Vigília",
+      "kind": "place",
+      "summary": "Montanha individual das Montanhas Cinzentas usada como referência de orientação; sua altitude permanece desconhecida.",
+      "mapEntityIds": [
+        "relief-vigil-peak",
+        "relief-grey-mountains"
+      ],
+      "themes": [
+        "montanhas",
+        "relevo"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-kragmoor-plateau",
+      "title": "Planalto de Kragmoor",
+      "kind": "place",
+      "summary": "Faixa elevada que sustenta a fortaleza-mina de Kragmoor e seus principais acessos nas Montanhas Orientais.",
+      "mapEntityIds": [
+        "relief-kragmoor-plateau",
+        "settlement-kragmoor"
+      ],
+      "themes": [
+        "planaltos",
+        "relevo"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-route-valgard-fenhollow",
+      "title": "Rota Valgard–Fenhollow",
+      "kind": "route",
+      "summary": "Trilha terrestre de cerca de um dia, com faixa canônica de 20 a 28 km.",
+      "mapEntityIds": [
+        "route-valgard-fenhollow",
+        "settlement-valgard",
+        "settlement-fenhollow"
+      ],
+      "themes": [
+        "rotas",
+        "viagem"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-route-valgard-ashvale",
+      "title": "Rota Valgard–Ashvale",
+      "kind": "route",
+      "summary": "Trilha terrestre de cerca de um dia, com faixa canônica de 20 a 28 km.",
+      "mapEntityIds": [
+        "route-valgard-ashvale",
+        "settlement-valgard",
+        "settlement-ashvale"
+      ],
+      "themes": [
+        "rotas",
+        "viagem"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-route-valgard-kragmoor",
+      "title": "Rota Valgard–Kragmoor",
+      "kind": "route",
+      "summary": "Caminho de 3 a 4 dias e 48 a 72 km, incluindo trecho montanhoso.",
+      "mapEntityIds": [
+        "route-valgard-kragmoor",
+        "settlement-valgard",
+        "settlement-kragmoor"
+      ],
+      "themes": [
+        "rotas",
+        "montanhas"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-route-valgard-thalmoor-land",
+      "title": "Rota terrestre Valgard–Thalmoor",
+      "kind": "route",
+      "summary": "Eixo terrestre de 4 a 5 dias e 80 a 120 km entre o interior e as Costas do Oeste.",
+      "mapEntityIds": [
+        "route-valgard-thalmoor",
+        "settlement-valgard",
+        "settlement-thalmoor"
+      ],
+      "themes": [
+        "rotas",
+        "viagem"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-route-lumen",
+      "title": "Rota Fluvial do Lumen",
+      "kind": "route",
+      "summary": "Trecho navegável por embarcações rasas entre Valgard e Thalmoor: 2 a 3 dias na descida e 3 a 5 na subida, ao longo de 70 a 110 km.",
+      "mapEntityIds": [
+        "route-lumen-fluvial",
+        "river-lumen",
+        "settlement-valgard",
+        "settlement-thalmoor"
+      ],
+      "themes": [
+        "rotas",
+        "rios"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-route-thalmoor-xerath-land",
+      "title": "Rota costeira Thalmoor–Xerath",
+      "kind": "route",
+      "summary": "Rota terrestre costeira de 7 a 10 dias e 150 a 240 km.",
+      "mapEntityIds": [
+        "route-thalmoor-xerath",
+        "settlement-thalmoor",
+        "settlement-xerath"
+      ],
+      "themes": [
+        "rotas",
+        "costas"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-route-thalmoor-xerath-sea",
+      "title": "Rota marítima Thalmoor–Xerath",
+      "kind": "route",
+      "summary": "Navegação pelo Mar Vesperino em 3 a 5 dias e 180 a 320 km, com paradas em enseadas seguras.",
+      "mapEntityIds": [
+        "route-thalmoor-xerath-maritime",
+        "sea-vesperine",
+        "settlement-thalmoor",
+        "settlement-xerath"
+      ],
+      "themes": [
+        "rotas",
+        "mares"
       ],
       "period": "atemporal",
       "chapterRefs": [],

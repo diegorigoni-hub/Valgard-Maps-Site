@@ -1,0 +1,52 @@
+{
+  "manifestVersion": "1.0.0",
+  "mapId": "eldrath-v001",
+  "name": "Eldrath — Mundo Conhecido",
+  "schemaVersion": "3.1.0",
+  "snapshotVersion": "3.1.0",
+  "snapshotStatus": "stable",
+  "lastVerifiedAt": "2026-07-11",
+  "coordinateReference": "local-cartographic-canvas",
+  "geometrySource": "cartographic-adaptation",
+  "containsPrivateNarrative": false,
+  "containsNotionUrls": false,
+  "containsBkpContent": false,
+  "phase7Started": false,
+  "artifacts": [
+    {
+      "path": "exports/eldrath-v001/eldrath-v001-1600x1000.png",
+      "publicPath": "downloads/eldrath-v001-1600x1000.png",
+      "mediaType": "image/png",
+      "bytes": 328234,
+      "sha256": "1a39151ff9ba1bc59f4e88b29ef2212cc748498ed4467de8ea2eede0d2e70b4c"
+    },
+    {
+      "path": "exports/eldrath-v001/eldrath-v001-3200x2000.png",
+      "publicPath": "downloads/eldrath-v001-3200x2000.png",
+      "mediaType": "image/png",
+      "bytes": 973890,
+      "sha256": "9cd4f4b0dd8d64725b7e5093a9b7ac22871c4d212a21552ca5bf6e8e831d08b0"
+    },
+    {
+      "path": "exports/eldrath-v001/eldrath-v001-print.zip",
+      "publicPath": "downloads/eldrath-v001-print.zip",
+      "mediaType": "application/zip",
+      "bytes": 988937,
+      "sha256": "44e0a4610d679c8d457dfd03db71f23f85100be28f635e98332e08b558b6085f"
+    },
+    {
+      "path": "exports/eldrath-v001/eldrath-v001.geojson",
+      "publicPath": "downloads/eldrath-v001.geojson",
+      "mediaType": "application/geo+json",
+      "bytes": 55126,
+      "sha256": "e0b30bdada9a6af95bba910dddbe9d5d4a6464673fa93be1b0df085d0c26962c"
+    },
+    {
+      "path": "site/maps/eldrath-v001.svg",
+      "publicPath": "maps/eldrath-v001.svg",
+      "mediaType": "image/svg+xml",
+      "bytes": 14398,
+      "sha256": "05ed1c561787ea2cfbf5b751c47f8986737f62efa0428a6e794b0f522cf795da"
+    }
+  ]
+}

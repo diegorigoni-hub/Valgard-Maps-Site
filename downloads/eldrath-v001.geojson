@@ -1,0 +1,2562 @@
+{
+  "type": "FeatureCollection",
+  "name": "Eldrath — Mundo Conhecido",
+  "valgardMetadata": {
+    "mapId": "eldrath-v001",
+    "schemaVersion": "3.1.0",
+    "snapshotVersion": "3.1.0",
+    "status": "stable",
+    "coordinateReference": "Valgard local cartographic canvas; not geographic longitude/latitude",
+    "units": "map-unit",
+    "axis": "x-east, y-south",
+    "bounds": [
+      0,
+      0,
+      1600,
+      1000
+    ],
+    "canonicalSource": "active Notion geography; narrative content excluded",
+    "geometrySource": "cartographic-adaptation"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "bay-thalmoor",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              210,
+              570
+            ],
+            [
+              260,
+              560
+            ],
+            [
+              330,
+              600
+            ],
+            [
+              290,
+              660
+            ],
+            [
+              230,
+              650
+            ],
+            [
+              210,
+              570
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "bay-thalmoor",
+        "name": "Baía de Thalmoor",
+        "type": "bay",
+        "collection": "bays",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biome-east-alpine",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              990,
+              280
+            ],
+            [
+              1210,
+              330
+            ],
+            [
+              1290,
+              510
+            ],
+            [
+              1170,
+              670
+            ],
+            [
+              960,
+              630
+            ],
+            [
+              1000,
+              390
+            ],
+            [
+              990,
+              280
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "biome-east-alpine",
+        "name": "Faixa alpina oriental",
+        "type": "biome",
+        "collection": "biomes",
+        "source": "cartographic-adaptation",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "regionIds": [
+          "region-east"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biome-north",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              220,
+              175
+            ],
+            [
+              450,
+              110
+            ],
+            [
+              760,
+              130
+            ],
+            [
+              1040,
+              200
+            ],
+            [
+              980,
+              285
+            ],
+            [
+              620,
+              270
+            ],
+            [
+              350,
+              300
+            ],
+            [
+              220,
+              175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "biome-north",
+        "name": "Tundra do Norte Congelado",
+        "type": "biome",
+        "collection": "biomes",
+        "source": "cartographic-adaptation",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "regionIds": [
+          "region-north"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biome-ossandra",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              470,
+              350
+            ],
+            [
+              690,
+              310
+            ],
+            [
+              790,
+              390
+            ],
+            [
+              750,
+              535
+            ],
+            [
+              560,
+              560
+            ],
+            [
+              430,
+              480
+            ],
+            [
+              470,
+              350
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "biome-ossandra",
+        "name": "Floresta de Ossandra",
+        "type": "biome",
+        "collection": "biomes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "regionIds": [
+          "region-central"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biome-plains",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              430,
+              175
+            ],
+            [
+              790,
+              145
+            ],
+            [
+              1020,
+              215
+            ],
+            [
+              940,
+              330
+            ],
+            [
+              710,
+              280
+            ],
+            [
+              420,
+              310
+            ],
+            [
+              430,
+              175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "biome-plains",
+        "name": "Campos das Grandes Planícies",
+        "type": "biome",
+        "collection": "biomes",
+        "source": "cartographic-adaptation",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "regionIds": [
+          "region-plains"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biome-west-coast",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              205,
+              285
+            ],
+            [
+              370,
+              340
+            ],
+            [
+              330,
+              560
+            ],
+            [
+              420,
+              720
+            ],
+            [
+              270,
+              640
+            ],
+            [
+              205,
+              500
+            ],
+            [
+              205,
+              285
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "biome-west-coast",
+        "name": "Costa marítima ocidental",
+        "type": "biome",
+        "collection": "biomes",
+        "source": "cartographic-adaptation",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "regionIds": [
+          "region-west"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biome-xerath",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              500,
+              710
+            ],
+            [
+              900,
+              670
+            ],
+            [
+              1120,
+              760
+            ],
+            [
+              1030,
+              845
+            ],
+            [
+              700,
+              885
+            ],
+            [
+              460,
+              790
+            ],
+            [
+              500,
+              710
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "biome-xerath",
+        "name": "Deserto de Xerath",
+        "type": "biome",
+        "collection": "biomes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "regionIds": [
+          "region-south"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coast-west",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            185,
+            300
+          ],
+          [
+            180,
+            420
+          ],
+          [
+            200,
+            540
+          ],
+          [
+            250,
+            650
+          ]
+        ]
+      },
+      "properties": {
+        "id": "coast-west",
+        "name": "Costas do Oeste",
+        "type": "coast",
+        "collection": "coasts",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "regionId": "region-west",
+        "oceanId": "sea-vesperine"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "continent-eldrath",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              190,
+              0
+            ],
+            [
+              1600,
+              0
+            ],
+            [
+              1600,
+              1000
+            ],
+            [
+              410,
+              1000
+            ],
+            [
+              300,
+              880
+            ],
+            [
+              250,
+              760
+            ],
+            [
+              210,
+              600
+            ],
+            [
+              185,
+              420
+            ],
+            [
+              190,
+              300
+            ],
+            [
+              190,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "continent-eldrath",
+        "name": "Eldrath",
+        "type": "continent",
+        "collection": "continents",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "known"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-winds",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              620,
+              205
+            ],
+            [
+              660,
+              185
+            ],
+            [
+              710,
+              205
+            ],
+            [
+              700,
+              240
+            ],
+            [
+              650,
+              245
+            ],
+            [
+              620,
+              205
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "lake-winds",
+        "name": "Lago dos Ventos",
+        "type": "lake",
+        "collection": "lakes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.2.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "seasonality": "seasonal",
+        "regionId": "region-plains"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "natural-port-thalmoor",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          300,
+          620
+        ]
+      },
+      "properties": {
+        "id": "natural-port-thalmoor",
+        "name": "Porto Natural de Thalmoor",
+        "type": "natural-port",
+        "collection": "naturalPorts",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.2.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ocean-endless",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              95,
+              0
+            ],
+            [
+              95,
+              1000
+            ],
+            [
+              0,
+              1000
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ocean-endless",
+        "name": "Mar Sem Fim",
+        "type": "ocean",
+        "collection": "oceans",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.2.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "region-central",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              390,
+              330
+            ],
+            [
+              710,
+              285
+            ],
+            [
+              970,
+              360
+            ],
+            [
+              930,
+              650
+            ],
+            [
+              590,
+              690
+            ],
+            [
+              340,
+              560
+            ],
+            [
+              390,
+              330
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "region-central",
+        "name": "Terras Centrais",
+        "type": "region",
+        "collection": "regions",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "region-east",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              970,
+              260
+            ],
+            [
+              1240,
+              320
+            ],
+            [
+              1320,
+              520
+            ],
+            [
+              1190,
+              700
+            ],
+            [
+              930,
+              650
+            ],
+            [
+              970,
+              360
+            ],
+            [
+              970,
+              260
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "region-east",
+        "name": "Montanhas Orientais",
+        "type": "region",
+        "collection": "regions",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "region-north",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              180,
+              180
+            ],
+            [
+              430,
+              90
+            ],
+            [
+              770,
+              115
+            ],
+            [
+              1080,
+              190
+            ],
+            [
+              1070,
+              205
+            ],
+            [
+              810,
+              125
+            ],
+            [
+              420,
+              145
+            ],
+            [
+              180,
+              260
+            ],
+            [
+              180,
+              180
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "region-north",
+        "name": "Norte Congelado",
+        "type": "region",
+        "collection": "regions",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "region-plains",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              420,
+              145
+            ],
+            [
+              810,
+              125
+            ],
+            [
+              1070,
+              205
+            ],
+            [
+              970,
+              360
+            ],
+            [
+              710,
+              285
+            ],
+            [
+              390,
+              330
+            ],
+            [
+              420,
+              145
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "region-plains",
+        "name": "Grandes Planícies",
+        "type": "region",
+        "collection": "regions",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "region-south",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              450,
+              760
+            ],
+            [
+              590,
+              690
+            ],
+            [
+              930,
+              650
+            ],
+            [
+              1190,
+              700
+            ],
+            [
+              1050,
+              850
+            ],
+            [
+              700,
+              900
+            ],
+            [
+              450,
+              760
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "region-south",
+        "name": "Deserto do Sul",
+        "type": "region",
+        "collection": "regions",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "region-west",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              180,
+              260
+            ],
+            [
+              390,
+              330
+            ],
+            [
+              340,
+              560
+            ],
+            [
+              450,
+              760
+            ],
+            [
+              250,
+              650
+            ],
+            [
+              180,
+              500
+            ],
+            [
+              180,
+              260
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "region-west",
+        "name": "Costas do Oeste",
+        "type": "region",
+        "collection": "regions",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relief-ashvale-valley",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            820,
+            560
+          ],
+          [
+            880,
+            600
+          ],
+          [
+            940,
+            630
+          ]
+        ]
+      },
+      "properties": {
+        "id": "relief-ashvale-valley",
+        "name": "Vale de Ashvale",
+        "type": "valley",
+        "collection": "relief",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "kind": "valley",
+        "regionId": "region-central",
+        "relatedSettlementIds": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relief-eastern-hills",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            780,
+            340
+          ],
+          [
+            850,
+            360
+          ],
+          [
+            930,
+            390
+          ]
+        ]
+      },
+      "properties": {
+        "id": "relief-eastern-hills",
+        "name": "Colinas Orientais",
+        "type": "hills",
+        "collection": "relief",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "kind": "hills",
+        "regionId": "region-central",
+        "relatedSettlementIds": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relief-eastern-mountains",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            970,
+            260
+          ],
+          [
+            1030,
+            350
+          ],
+          [
+            1080,
+            430
+          ],
+          [
+            1140,
+            520
+          ],
+          [
+            1190,
+            620
+          ],
+          [
+            1220,
+            700
+          ]
+        ]
+      },
+      "properties": {
+        "id": "relief-eastern-mountains",
+        "name": "Montanhas Orientais",
+        "type": "mountain-range",
+        "collection": "relief",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "kind": "mountain-range",
+        "regionId": "region-east",
+        "relatedSettlementIds": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relief-grey-mountains",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1120,
+            290
+          ],
+          [
+            1180,
+            360
+          ],
+          [
+            1220,
+            430
+          ],
+          [
+            1250,
+            500
+          ]
+        ]
+      },
+      "properties": {
+        "id": "relief-grey-mountains",
+        "name": "Montanhas Cinzentas",
+        "type": "mountain-range",
+        "collection": "relief",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "kind": "mountain-range",
+        "regionId": "region-east",
+        "relatedSettlementIds": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relief-kragmoor-plateau",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1030,
+            455
+          ],
+          [
+            1100,
+            440
+          ],
+          [
+            1160,
+            480
+          ],
+          [
+            1100,
+            530
+          ],
+          [
+            1030,
+            510
+          ]
+        ]
+      },
+      "properties": {
+        "id": "relief-kragmoor-plateau",
+        "name": "Planalto de Kragmoor",
+        "type": "plateau",
+        "collection": "relief",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "kind": "plateau",
+        "regionId": "region-east",
+        "relatedSettlementIds": [
+          "settlement-kragmoor"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relief-valgard-valley",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            640,
+            500
+          ],
+          [
+            700,
+            540
+          ],
+          [
+            780,
+            580
+          ]
+        ]
+      },
+      "properties": {
+        "id": "relief-valgard-valley",
+        "name": "Vale de Valgard",
+        "type": "valley",
+        "collection": "relief",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "kind": "valley",
+        "regionId": "region-central",
+        "relatedSettlementIds": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relief-vigil-peak",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1190,
+            340
+          ],
+          [
+            1210,
+            305
+          ],
+          [
+            1230,
+            340
+          ]
+        ]
+      },
+      "properties": {
+        "id": "relief-vigil-peak",
+        "name": "Pico da Vigília",
+        "type": "mountain",
+        "collection": "relief",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "kind": "mountain",
+        "regionId": "region-east",
+        "relatedSettlementIds": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relief-western-hills",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            520,
+            440
+          ],
+          [
+            560,
+            500
+          ],
+          [
+            590,
+            560
+          ]
+        ]
+      },
+      "properties": {
+        "id": "relief-western-hills",
+        "name": "Colinas a oeste de Valgard",
+        "type": "hills",
+        "collection": "relief",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "kind": "hills",
+        "regionId": "region-central",
+        "relatedSettlementIds": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "river-fenhollow",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            900,
+            370
+          ],
+          [
+            850,
+            410
+          ],
+          [
+            800,
+            470
+          ],
+          [
+            760,
+            515
+          ]
+        ]
+      },
+      "properties": {
+        "id": "river-fenhollow",
+        "name": "Riacho de Fenhollow",
+        "type": "tributary",
+        "collection": "rivers",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "basinId": "basin-lumen",
+        "sourceReliefId": "relief-eastern-hills",
+        "parentRiverId": "river-lumen",
+        "regionIds": [
+          "region-central"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "river-lumen",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1040,
+            360
+          ],
+          [
+            960,
+            400
+          ],
+          [
+            870,
+            455
+          ],
+          [
+            760,
+            515
+          ],
+          [
+            650,
+            555
+          ],
+          [
+            530,
+            590
+          ],
+          [
+            410,
+            625
+          ],
+          [
+            335,
+            640
+          ]
+        ]
+      },
+      "properties": {
+        "id": "river-lumen",
+        "name": "Rio Lumen",
+        "type": "river",
+        "collection": "rivers",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "basinId": "basin-lumen",
+        "sourceReliefId": "relief-eastern-mountains",
+        "regionIds": [
+          "region-east",
+          "region-central",
+          "region-west"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-lumen-fluvial",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            700,
+            520
+          ],
+          [
+            650,
+            555
+          ],
+          [
+            530,
+            590
+          ],
+          [
+            410,
+            625
+          ],
+          [
+            335,
+            640
+          ],
+          [
+            300,
+            620
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route-lumen-fluvial",
+        "name": "Rota Fluvial do Lumen",
+        "type": "route",
+        "collection": "routes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.2.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "routeClass": "fluvial",
+        "modes": [
+          "river-navigation"
+        ],
+        "fromSettlementId": "settlement-valgard",
+        "toSettlementId": "settlement-thalmoor",
+        "distance": {
+          "unit": "km",
+          "minimum": 70,
+          "maximum": 110,
+          "status": "known"
+        },
+        "travelDays": {
+          "unit": "travel-day",
+          "minimum": 2,
+          "maximum": 3,
+          "status": "known"
+        },
+        "reverseTravelDays": {
+          "unit": "travel-day",
+          "minimum": 3,
+          "maximum": 5,
+          "status": "known"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-thalmoor-xerath",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            300,
+            620
+          ],
+          [
+            420,
+            720
+          ],
+          [
+            580,
+            790
+          ],
+          [
+            760,
+            790
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route-thalmoor-xerath",
+        "name": "Rota Terrestre Costeira Thalmoor–Xerath",
+        "type": "route",
+        "collection": "routes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.2.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "routeClass": "terrestrial",
+        "modes": [
+          "trail",
+          "coastal-road"
+        ],
+        "fromSettlementId": "settlement-thalmoor",
+        "toSettlementId": "settlement-xerath",
+        "distance": {
+          "unit": "km",
+          "minimum": 150,
+          "maximum": 240,
+          "status": "known"
+        },
+        "travelDays": {
+          "unit": "travel-day",
+          "minimum": 7,
+          "maximum": 10,
+          "status": "known"
+        },
+        "reverseTravelDays": {
+          "unit": "travel-day",
+          "minimum": 7,
+          "maximum": 10,
+          "status": "known"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-thalmoor-xerath-maritime",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            300,
+            620
+          ],
+          [
+            330,
+            710
+          ],
+          [
+            460,
+            820
+          ],
+          [
+            620,
+            850
+          ],
+          [
+            760,
+            790
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route-thalmoor-xerath-maritime",
+        "name": "Rota Marítima Thalmoor–Xerath",
+        "type": "route",
+        "collection": "routes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.2.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "routeClass": "maritime",
+        "modes": [
+          "coastal-sailing"
+        ],
+        "fromSettlementId": "settlement-thalmoor",
+        "toSettlementId": "settlement-xerath",
+        "distance": {
+          "unit": "km",
+          "minimum": 180,
+          "maximum": 320,
+          "status": "known"
+        },
+        "travelDays": {
+          "unit": "travel-day",
+          "minimum": 3,
+          "maximum": 5,
+          "status": "known"
+        },
+        "reverseTravelDays": {
+          "unit": "travel-day",
+          "minimum": 3,
+          "maximum": 5,
+          "status": "known"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-valgard-ashvale",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            700,
+            520
+          ],
+          [
+            790,
+            560
+          ],
+          [
+            885,
+            595
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route-valgard-ashvale",
+        "name": "Trilha Valgard–Ashvale",
+        "type": "route",
+        "collection": "routes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.2.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "routeClass": "terrestrial",
+        "modes": [
+          "trail"
+        ],
+        "fromSettlementId": "settlement-valgard",
+        "toSettlementId": "settlement-ashvale",
+        "distance": {
+          "unit": "km",
+          "minimum": 20,
+          "maximum": 28,
+          "status": "known"
+        },
+        "travelDays": {
+          "unit": "travel-day",
+          "minimum": 1,
+          "maximum": 1,
+          "status": "known"
+        },
+        "reverseTravelDays": {
+          "unit": "travel-day",
+          "minimum": 1,
+          "maximum": 1,
+          "status": "known"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-valgard-fenhollow",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            700,
+            520
+          ],
+          [
+            760,
+            475
+          ],
+          [
+            835,
+            410
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route-valgard-fenhollow",
+        "name": "Trilha Valgard–Fenhollow",
+        "type": "route",
+        "collection": "routes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.2.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "routeClass": "terrestrial",
+        "modes": [
+          "trail"
+        ],
+        "fromSettlementId": "settlement-valgard",
+        "toSettlementId": "settlement-fenhollow",
+        "distance": {
+          "unit": "km",
+          "minimum": 20,
+          "maximum": 28,
+          "status": "known"
+        },
+        "travelDays": {
+          "unit": "travel-day",
+          "minimum": 1,
+          "maximum": 1,
+          "status": "known"
+        },
+        "reverseTravelDays": {
+          "unit": "travel-day",
+          "minimum": 1,
+          "maximum": 1,
+          "status": "known"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-valgard-kragmoor",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            700,
+            520
+          ],
+          [
+            835,
+            410
+          ],
+          [
+            970,
+            440
+          ],
+          [
+            1090,
+            500
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route-valgard-kragmoor",
+        "name": "Rota Valgard–Kragmoor",
+        "type": "route",
+        "collection": "routes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.2.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "routeClass": "terrestrial",
+        "modes": [
+          "trail",
+          "mountain-pass"
+        ],
+        "fromSettlementId": "settlement-valgard",
+        "toSettlementId": "settlement-kragmoor",
+        "distance": {
+          "unit": "km",
+          "minimum": 48,
+          "maximum": 72,
+          "status": "known"
+        },
+        "travelDays": {
+          "unit": "travel-day",
+          "minimum": 3,
+          "maximum": 4,
+          "status": "known"
+        },
+        "reverseTravelDays": {
+          "unit": "travel-day",
+          "minimum": 3,
+          "maximum": 4,
+          "status": "known"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-valgard-thalmoor",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            700,
+            520
+          ],
+          [
+            560,
+            560
+          ],
+          [
+            430,
+            590
+          ],
+          [
+            300,
+            620
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route-valgard-thalmoor",
+        "name": "Rota Valgard–Thalmoor",
+        "type": "route",
+        "collection": "routes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.2.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "routeClass": "terrestrial",
+        "modes": [
+          "trail"
+        ],
+        "fromSettlementId": "settlement-valgard",
+        "toSettlementId": "settlement-thalmoor",
+        "distance": {
+          "unit": "km",
+          "minimum": 80,
+          "maximum": 120,
+          "status": "known"
+        },
+        "travelDays": {
+          "unit": "travel-day",
+          "minimum": 4,
+          "maximum": 5,
+          "status": "known"
+        },
+        "reverseTravelDays": {
+          "unit": "travel-day",
+          "minimum": 4,
+          "maximum": 5,
+          "status": "known"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sea-vesperine",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              65,
+              0
+            ],
+            [
+              350,
+              0
+            ],
+            [
+              350,
+              1000
+            ],
+            [
+              65,
+              1000
+            ],
+            [
+              65,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "sea-vesperine",
+        "name": "Mar Vesperino",
+        "type": "sea",
+        "collection": "oceans",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "known"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "settlement-ashvale",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          885,
+          595
+        ]
+      },
+      "properties": {
+        "id": "settlement-ashvale",
+        "name": "Ashvale",
+        "type": "meeting-place",
+        "collection": "settlements",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "kind": "meeting-place",
+        "regionId": "region-central",
+        "subregionId": "subregion-ashvale-valley",
+        "territoryId": "territory-ashvale",
+        "peopleIds": [],
+        "hasPort": false,
+        "hasMine": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "settlement-fenhollow",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          835,
+          410
+        ]
+      },
+      "properties": {
+        "id": "settlement-fenhollow",
+        "name": "Fenhollow",
+        "type": "village",
+        "collection": "settlements",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "kind": "village",
+        "regionId": "region-central",
+        "subregionId": "subregion-eastern-hills",
+        "territoryId": "territory-fenhollow",
+        "peopleIds": [
+          "people-fenhollow"
+        ],
+        "hasPort": false,
+        "hasMine": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "settlement-kragmoor",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1090,
+          500
+        ]
+      },
+      "properties": {
+        "id": "settlement-kragmoor",
+        "name": "Kragmoor",
+        "type": "fortress",
+        "collection": "settlements",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "kind": "fortress",
+        "regionId": "region-east",
+        "territoryId": "territory-kragmoor",
+        "peopleIds": [
+          "people-kragmoor"
+        ],
+        "hasPort": false,
+        "hasMine": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "settlement-rhenmark",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          760,
+          235
+        ]
+      },
+      "properties": {
+        "id": "settlement-rhenmark",
+        "name": "Rhenmark",
+        "type": "mobile-camp",
+        "collection": "settlements",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "kind": "mobile-camp",
+        "regionId": "region-plains",
+        "territoryId": "territory-rhenmark",
+        "peopleIds": [
+          "people-rhenmark"
+        ],
+        "hasPort": false,
+        "hasMine": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "settlement-thalmoor",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          300,
+          620
+        ]
+      },
+      "properties": {
+        "id": "settlement-thalmoor",
+        "name": "Thalmoor",
+        "type": "port",
+        "collection": "settlements",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "kind": "port",
+        "regionId": "region-west",
+        "territoryId": "territory-thalmoor",
+        "peopleIds": [
+          "people-thalmoor"
+        ],
+        "hasPort": true,
+        "hasMine": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "settlement-valgard",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          700,
+          520
+        ]
+      },
+      "properties": {
+        "id": "settlement-valgard",
+        "name": "Valgard",
+        "type": "village",
+        "collection": "settlements",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "kind": "village",
+        "regionId": "region-central",
+        "subregionId": "subregion-valgard-valley",
+        "territoryId": "territory-valgard",
+        "peopleIds": [
+          "people-valgard"
+        ],
+        "hasPort": false,
+        "hasMine": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "settlement-xerath",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          760,
+          790
+        ]
+      },
+      "properties": {
+        "id": "settlement-xerath",
+        "name": "Xerath",
+        "type": "oasis-city",
+        "collection": "settlements",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "kind": "oasis-city",
+        "regionId": "region-south",
+        "territoryId": "territory-xerath",
+        "peopleIds": [
+          "people-xerath"
+        ],
+        "hasPort": false,
+        "hasMine": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "subregion-ashvale-valley",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              800,
+              550
+            ],
+            [
+              940,
+              520
+            ],
+            [
+              970,
+              650
+            ],
+            [
+              850,
+              680
+            ],
+            [
+              800,
+              550
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "subregion-ashvale-valley",
+        "name": "Vale de Ashvale",
+        "type": "subregion",
+        "collection": "subregions",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "regionId": "region-central"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "subregion-eastern-hills",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              760,
+              320
+            ],
+            [
+              960,
+              330
+            ],
+            [
+              970,
+              430
+            ],
+            [
+              800,
+              450
+            ],
+            [
+              760,
+              320
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "subregion-eastern-hills",
+        "name": "Colinas Orientais",
+        "type": "subregion",
+        "collection": "subregions",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "regionId": "region-central"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "subregion-valgard-valley",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              610,
+              450
+            ],
+            [
+              790,
+              440
+            ],
+            [
+              820,
+              590
+            ],
+            [
+              640,
+              620
+            ],
+            [
+              610,
+              450
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "subregion-valgard-valley",
+        "name": "Vale de Valgard",
+        "type": "subregion",
+        "collection": "subregions",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "regionId": "region-central"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "territory-ashvale",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              810,
+              540
+            ],
+            [
+              950,
+              520
+            ],
+            [
+              970,
+              650
+            ],
+            [
+              850,
+              680
+            ],
+            [
+              810,
+              540
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "territory-ashvale",
+        "name": "Vale neutro de Ashvale",
+        "type": "cultural-territory",
+        "collection": "territories",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "regionIds": [
+          "region-central"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "territory-fenhollow",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              760,
+              340
+            ],
+            [
+              930,
+              350
+            ],
+            [
+              930,
+              470
+            ],
+            [
+              790,
+              490
+            ],
+            [
+              760,
+              340
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "territory-fenhollow",
+        "name": "Território de Fenhollow",
+        "type": "cultural-territory",
+        "collection": "territories",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "regionIds": [
+          "region-central"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "territory-kragmoor",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              980,
+              420
+            ],
+            [
+              1210,
+              390
+            ],
+            [
+              1230,
+              650
+            ],
+            [
+              1040,
+              650
+            ],
+            [
+              980,
+              420
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "territory-kragmoor",
+        "name": "Território de Kragmoor",
+        "type": "cultural-territory",
+        "collection": "territories",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "regionIds": [
+          "region-east"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "territory-rhenmark",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              520,
+              170
+            ],
+            [
+              930,
+              170
+            ],
+            [
+              980,
+              300
+            ],
+            [
+              650,
+              320
+            ],
+            [
+              520,
+              170
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "territory-rhenmark",
+        "name": "Território nômade de Rhenmark",
+        "type": "cultural-territory",
+        "collection": "territories",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "regionIds": [
+          "region-plains"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "territory-thalmoor",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              200,
+              400
+            ],
+            [
+              370,
+              420
+            ],
+            [
+              380,
+              680
+            ],
+            [
+              250,
+              670
+            ],
+            [
+              190,
+              570
+            ],
+            [
+              200,
+              400
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "territory-thalmoor",
+        "name": "Território de Thalmoor",
+        "type": "cultural-territory",
+        "collection": "territories",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "regionIds": [
+          "region-west"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "territory-valgard",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              600,
+              430
+            ],
+            [
+              790,
+              430
+            ],
+            [
+              820,
+              590
+            ],
+            [
+              620,
+              620
+            ],
+            [
+              560,
+              520
+            ],
+            [
+              600,
+              430
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "territory-valgard",
+        "name": "Território de Valgard",
+        "type": "cultural-territory",
+        "collection": "territories",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "regionIds": [
+          "region-central"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "territory-xerath",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              500,
+              710
+            ],
+            [
+              980,
+              680
+            ],
+            [
+              1080,
+              830
+            ],
+            [
+              700,
+              880
+            ],
+            [
+              470,
+              790
+            ],
+            [
+              500,
+              710
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "territory-xerath",
+        "name": "Território de Xerath",
+        "type": "cultural-territory",
+        "collection": "territories",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "regionIds": [
+          "region-south"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unknown-east",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1220,
+              90
+            ],
+            [
+              1600,
+              90
+            ],
+            [
+              1600,
+              850
+            ],
+            [
+              1450,
+              800
+            ],
+            [
+              1350,
+              650
+            ],
+            [
+              1390,
+              470
+            ],
+            [
+              1320,
+              260
+            ],
+            [
+              1220,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "unknown-east",
+        "name": "Além das Montanhas Orientais",
+        "type": "unexplored-region",
+        "collection": "unknownRegions",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "unexplored"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unknown-south",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              420,
+              820
+            ],
+            [
+              1080,
+              800
+            ],
+            [
+              1450,
+              800
+            ],
+            [
+              1600,
+              850
+            ],
+            [
+              1600,
+              1000
+            ],
+            [
+              410,
+              1000
+            ],
+            [
+              420,
+              820
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "unknown-south",
+        "name": "Além do Deserto do Sul",
+        "type": "unexplored-region",
+        "collection": "unknownRegions",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "unexplored"
+      }
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "valgardMetadata": {
     "mapId": "eldrath-v001",
     "schemaVersion": "3.1.0",
-    "snapshotVersion": "3.1.0",
+    "snapshotVersion": "3.1.1",
     "status": "stable",
     "coordinateReference": "Valgard local cartographic canvas; not geographic longitude/latitude",
     "units": "map-unit",
@@ -2503,6 +2503,57 @@
         "precision": "approximate",
         "version": "1.1.0",
         "lastVerifiedAt": "2026-07-11",
+        "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "unexplored"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unknown-north",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              420,
+              0
+            ],
+            [
+              1370,
+              0
+            ],
+            [
+              1320,
+              90
+            ],
+            [
+              1030,
+              105
+            ],
+            [
+              760,
+              88
+            ],
+            [
+              500,
+              112
+            ],
+            [
+              420,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "unknown-north",
+        "name": "Além do Norte Congelado",
+        "type": "unexplored-region",
+        "collection": "unknownRegions",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-12",
         "geometrySource": "cartographic-adaptation",
         "knowledgeStatus": "unexplored"
       }

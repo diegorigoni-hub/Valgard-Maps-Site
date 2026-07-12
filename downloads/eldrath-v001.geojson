@@ -3,8 +3,8 @@
   "name": "Eldrath — Mundo Conhecido",
   "valgardMetadata": {
     "mapId": "eldrath-v001",
-    "schemaVersion": "3.1.0",
-    "snapshotVersion": "3.1.1",
+    "schemaVersion": "3.2.0",
+    "snapshotVersion": "3.2.0",
     "status": "stable",
     "coordinateReference": "Valgard local cartographic canvas; not geographic longitude/latitude",
     "units": "map-unit",
@@ -1318,6 +1318,174 @@
     },
     {
       "type": "Feature",
+      "id": "route-ashvale-xerath",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            885,
+            595
+          ],
+          [
+            850,
+            660
+          ],
+          [
+            805,
+            725
+          ],
+          [
+            760,
+            790
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route-ashvale-xerath",
+        "name": "Trilha Ashvale–Xerath",
+        "type": "route",
+        "collection": "routes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-12",
+        "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "confirmed",
+        "routeClass": "terrestrial",
+        "modes": [
+          "trail",
+          "desert-edge"
+        ],
+        "fromSettlementId": "settlement-ashvale",
+        "toSettlementId": "settlement-xerath",
+        "distance": {
+          "unit": "km",
+          "minimum": 100,
+          "maximum": 220,
+          "status": "known"
+        },
+        "travelDays": {
+          "unit": "travel-day",
+          "minimum": 5,
+          "maximum": 8,
+          "status": "known"
+        },
+        "reverseTravelDays": {
+          "unit": "travel-day",
+          "minimum": 5,
+          "maximum": 8,
+          "status": "known"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-fenhollow-kragmoor",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            835,
+            410
+          ],
+          [
+            930,
+            390
+          ],
+          [
+            1010,
+            445
+          ],
+          [
+            1090,
+            500
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route-fenhollow-kragmoor",
+        "name": "Passagem Fenhollow–Kragmoor",
+        "type": "route",
+        "collection": "routes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-12",
+        "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "confirmed",
+        "routeClass": "terrestrial",
+        "modes": [
+          "trail",
+          "mountain-pass"
+        ],
+        "fromSettlementId": "settlement-fenhollow",
+        "toSettlementId": "settlement-kragmoor",
+        "distance": {
+          "unit": "km",
+          "minimum": 45,
+          "maximum": 100,
+          "status": "known"
+        },
+        "travelDays": {
+          "unit": "travel-day",
+          "minimum": 3,
+          "maximum": 5,
+          "status": "known"
+        },
+        "reverseTravelDays": {
+          "unit": "travel-day",
+          "minimum": 3,
+          "maximum": 5,
+          "status": "known"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-grey-shortcut",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "route-grey-shortcut",
+        "name": "Atalho das Cinzentas",
+        "type": "route",
+        "collection": "routes",
+        "source": "canonical",
+        "precision": "unknown",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-12",
+        "geometrySource": "absent",
+        "knowledgeStatus": "legendary",
+        "routeClass": "terrestrial",
+        "modes": [
+          "rumored-pass"
+        ],
+        "fromSettlementId": "settlement-kragmoor",
+        "toSettlementId": "settlement-rhenmark",
+        "distance": {
+          "unit": null,
+          "minimum": null,
+          "maximum": null,
+          "status": "unknown"
+        },
+        "travelDays": {
+          "unit": null,
+          "minimum": null,
+          "maximum": null,
+          "status": "unknown"
+        },
+        "reverseTravelDays": {
+          "unit": null,
+          "minimum": null,
+          "maximum": null,
+          "status": "unknown"
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "route-lumen-fluvial",
       "geometry": {
         "type": "LineString",
@@ -1358,6 +1526,7 @@
         "version": "1.2.0",
         "lastVerifiedAt": "2026-07-11",
         "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "confirmed",
         "routeClass": "fluvial",
         "modes": [
           "river-navigation"
@@ -1374,6 +1543,133 @@
           "unit": "travel-day",
           "minimum": 2,
           "maximum": 3,
+          "status": "known"
+        },
+        "reverseTravelDays": {
+          "unit": "travel-day",
+          "minimum": 3,
+          "maximum": 5,
+          "status": "known"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-old-west-road",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            700,
+            520
+          ],
+          [
+            600,
+            500
+          ],
+          [
+            500,
+            520
+          ],
+          [
+            395,
+            555
+          ],
+          [
+            300,
+            620
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route-old-west-road",
+        "name": "Estrada Velha do Oeste",
+        "type": "route",
+        "collection": "routes",
+        "source": "canonical",
+        "precision": "unknown",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-12",
+        "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "partial",
+        "routeClass": "terrestrial",
+        "modes": [
+          "abandoned-road"
+        ],
+        "fromSettlementId": "settlement-valgard",
+        "toSettlementId": "settlement-thalmoor",
+        "distance": {
+          "unit": null,
+          "minimum": null,
+          "maximum": null,
+          "status": "unknown"
+        },
+        "travelDays": {
+          "unit": null,
+          "minimum": null,
+          "maximum": null,
+          "status": "unknown"
+        },
+        "reverseTravelDays": {
+          "unit": null,
+          "minimum": null,
+          "maximum": null,
+          "status": "unknown"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-rhenmark-valgard",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            760,
+            235
+          ],
+          [
+            745,
+            330
+          ],
+          [
+            720,
+            430
+          ],
+          [
+            700,
+            520
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route-rhenmark-valgard",
+        "name": "Caminho das Planícies",
+        "type": "route",
+        "collection": "routes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-12",
+        "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "confirmed",
+        "routeClass": "terrestrial",
+        "modes": [
+          "horseback",
+          "caravan"
+        ],
+        "fromSettlementId": "settlement-rhenmark",
+        "toSettlementId": "settlement-valgard",
+        "distance": {
+          "unit": "km",
+          "minimum": 105,
+          "maximum": 250,
+          "status": "known"
+        },
+        "travelDays": {
+          "unit": "travel-day",
+          "minimum": 3,
+          "maximum": 5,
           "status": "known"
         },
         "reverseTravelDays": {
@@ -1418,6 +1714,7 @@
         "version": "1.2.0",
         "lastVerifiedAt": "2026-07-11",
         "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "confirmed",
         "routeClass": "terrestrial",
         "modes": [
           "trail",
@@ -1483,6 +1780,7 @@
         "version": "1.2.0",
         "lastVerifiedAt": "2026-07-11",
         "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "confirmed",
         "routeClass": "maritime",
         "modes": [
           "coastal-sailing"
@@ -1539,6 +1837,7 @@
         "version": "1.2.0",
         "lastVerifiedAt": "2026-07-11",
         "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "confirmed",
         "routeClass": "terrestrial",
         "modes": [
           "trail"
@@ -1595,6 +1894,7 @@
         "version": "1.2.0",
         "lastVerifiedAt": "2026-07-11",
         "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "confirmed",
         "routeClass": "terrestrial",
         "modes": [
           "trail"
@@ -1655,6 +1955,7 @@
         "version": "1.2.0",
         "lastVerifiedAt": "2026-07-11",
         "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "confirmed",
         "routeClass": "terrestrial",
         "modes": [
           "trail",
@@ -1716,6 +2017,7 @@
         "version": "1.2.0",
         "lastVerifiedAt": "2026-07-11",
         "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "confirmed",
         "routeClass": "terrestrial",
         "modes": [
           "trail"

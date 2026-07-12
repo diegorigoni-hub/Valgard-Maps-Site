@@ -1,6 +1,6 @@
 (() => {
   "use strict";
-  const state = {entries: []};
+  const state = {entries: [], scenesByAtlas: new Map()};
   const search = document.querySelector("#atlas-search");
   const kind = document.querySelector("#atlas-kind");
   const theme = document.querySelector("#atlas-theme");
@@ -73,7 +73,9 @@
       const link = document.createElement("a");
       link.href = mapLink(item);
       link.textContent = "Ver no mapa";
-      article.append(title, badges, summary, ...(item.travel ? [travel] : []), tags, link);
+      const scene=state.scenesByAtlas.get(item.id),sceneLink=document.createElement("a");
+      if(scene){sceneLink.href=`${scene.url}#entity=${encodeURIComponent(scene.entityId)}`;sceneLink.textContent="Explorar em 3D";}
+      article.append(title, badges, summary, ...(item.travel ? [travel] : []), tags, link, ...(scene?[sceneLink]:[]));
       results.append(article);
     }
     status.textContent = filtered.length ? `${filtered.length} ficha(s) pública(s).` : "Nenhum conteúdo público aprovado nesta combinação.";
@@ -99,8 +101,8 @@
   };
 
   for (const control of [search, kind, theme, knowledge, period]) control.addEventListener("input", () => render());
-  fetch("data/atlas.json")
-    .then(response => {if (!response.ok) throw new Error("catálogo indisponível"); return response.json();})
-    .then(data => {state.entries = data.entries; populateThemes(); restoreState();})
+  Promise.all([fetch("data/atlas.json"),fetch("data/scenes.json")])
+    .then(async responses => {if(responses.some(response=>!response.ok))throw new Error("catálogo indisponível");return Promise.all(responses.map(response=>response.json()));})
+    .then(([data,registry]) => {state.entries=data.entries;state.scenesByAtlas=new Map(registry.scenes.map(scene=>[scene.atlasEntryId,scene]));populateThemes();restoreState();})
     .catch(() => {status.textContent = "Não foi possível carregar o atlas.";});
 })();

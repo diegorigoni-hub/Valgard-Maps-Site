@@ -1,0 +1,15 @@
+{
+  "id": "./",
+  "name": "Valgard Maps",
+  "short_name": "Valgard Maps",
+  "description": "Mapa público, atlas e protótipo 3D de Valgard.",
+  "lang": "pt-BR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#151512",
+  "theme_color": "#201f1b",
+  "icons": [
+    {"src": "icons/valgard-map.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+  ]
+}

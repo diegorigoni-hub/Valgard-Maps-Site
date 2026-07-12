@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Atlas de Eldrath</title>
   <meta name="description" content="Atlas cartográfico público de Eldrath.">
+  <meta name="theme-color" content="#201f1b">
+  <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="accessibility.css">
   <link rel="stylesheet" href="atlas.css">
@@ -32,8 +34,10 @@
   </section>
   <p id="atlas-status" role="status" aria-live="polite">Carregando atlas…</p>
   <section id="atlas-results" class="atlas-grid" aria-label="Fichas do atlas"></section>
+  <noscript><section class="panel"><h2>Atlas sem JavaScript</h2><p>As fichas pesquisáveis exigem JavaScript. O <a href="maps/eldrath-v001.svg">mapa SVG</a> e as <a href="index.html#downloads-title">exportações públicas</a> continuam acessíveis.</p></section></noscript>
 </main>
 <footer><p>Coordenadas, curvas e limites desenhados são aproximações cartográficas.</p></footer>
 <script src="atlas.js" defer></script>
+<script src="sw-register.js" defer></script>
 </body>
 </html>

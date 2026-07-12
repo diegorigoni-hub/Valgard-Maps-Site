@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Protótipo 3D de Valgard</title>
+  <meta name="description" content="Protótipo cartográfico 3D experimental de Valgard e arredores.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="accessibility.css">
+  <link rel="stylesheet" href="valgard-3d.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Pular para o protótipo</a>
+<header>
+  <p>Valgard Maps · experiência experimental</p>
+  <h1>Valgard em 3D</h1>
+  <p>Prova visual limitada a Valgard e arredores. Alturas, edifícios, campos e traçados locais não são medidas canônicas.</p>
+  <p><a href="index.html">Voltar ao mapa 2D</a></p>
+</header>
+<main id="main-content">
+  <section class="prototype-layout">
+    <div class="prototype-stage panel">
+      <div class="toolbar" aria-label="Controles da cena 3D">
+        <button id="scene-left" type="button">Girar à esquerda</button>
+        <button id="scene-right" type="button">Girar à direita</button>
+        <button id="scene-in" type="button">Aproximar</button>
+        <button id="scene-out" type="button">Afastar</button>
+        <button id="scene-reset" type="button">Visão inicial</button>
+      </div>
+      <div id="scene-container" class="scene-container" tabindex="0" role="application" aria-label="Cena tridimensional experimental de Valgard. Use setas para girar, mais e menos para aproximar ou afastar.">
+        <canvas id="scene-canvas"></canvas>
+        <noscript><p>JavaScript está desativado. <a href="index.html#feature=settlement-valgard">Veja Valgard no mapa 2D</a>.</p></noscript>
+      </div>
+      <p id="scene-status" role="status" aria-live="polite">Preparando a cena…</p>
+      <p><a href="index.html#feature=settlement-valgard">Abrir Valgard no mapa 2D</a></p>
+    </div>
+    <aside class="prototype-aside">
+      <section class="panel"><h2>Como navegar</h2><p>Arraste ou deslize para girar. Use a roda, os botões ou as teclas <kbd>+</kbd> e <kbd>-</kbd> para ajustar a distância.</p></section>
+      <section class="panel"><h2>Origem visual</h2><ul id="scene-legend"><li><strong>Cânone:</strong> fato confirmado.</li><li><strong>Adaptação:</strong> forma necessária para visualizar.</li><li><strong>Reconstrução:</strong> preenchimento visual não canônico.</li></ul></section>
+      <section class="panel"><h2>Elementos da prova</h2><ul id="scene-elements"></ul></section>
+    </aside>
+  </section>
+</main>
+<footer><p>Protótipo reversível. O mapa 2D e o Notion ativo continuam sendo as referências oficiais.</p></footer>
+<script type="module" src="valgard-3d.js"></script>
+</body>
+</html>

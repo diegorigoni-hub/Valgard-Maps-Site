@@ -1,0 +1,1 @@
+.atlas-controls{display:flex;flex-wrap:wrap;gap:.65rem;align-items:center}.atlas-controls h2{width:100%}.atlas-controls input{min-width:15rem}.atlas-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));gap:1rem;margin:1rem 0}.atlas-card h2{margin-top:0}@media(max-width:620px){.atlas-controls{display:grid}.atlas-controls input{min-width:0;width:100%}}

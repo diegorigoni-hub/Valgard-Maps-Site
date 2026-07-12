@@ -1,0 +1,84 @@
+{
+  "contractVersion": "1.0.0",
+  "mapId": "eldrath-v001",
+  "snapshotVersion": "3.2.0",
+  "entries": [
+    {
+      "id": "atlas-valgard",
+      "title": "Valgard",
+      "kind": "place",
+      "summary": "Assentamento interior nas Terras Centrais, às margens do Rio Lumen, de função agrícola e guerreira.",
+      "mapEntityIds": [
+        "settlement-valgard",
+        "territory-valgard",
+        "river-lumen"
+      ],
+      "themes": [
+        "assentamentos",
+        "rios"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-thalmoor",
+      "title": "Thalmoor",
+      "kind": "place",
+      "summary": "Porto marítimo protegido por baía natural, próximo à foz do Rio Lumen no Mar Vesperino.",
+      "mapEntityIds": [
+        "settlement-thalmoor",
+        "bay-thalmoor",
+        "natural-port-thalmoor",
+        "sea-vesperine"
+      ],
+      "themes": [
+        "assentamentos",
+        "mares",
+        "rios"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-lumen",
+      "title": "Rio Lumen",
+      "kind": "place",
+      "summary": "Curso principal da Bacia do Lumen, das Montanhas Orientais ao Mar Vesperino.",
+      "mapEntityIds": [
+        "river-lumen",
+        "basin-lumen",
+        "sea-vesperine"
+      ],
+      "themes": [
+        "rios",
+        "viagem"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-unknown-lands",
+      "title": "Terras Desconhecidas",
+      "kind": "theme",
+      "summary": "Margens abertas ao norte, leste e sul cujo desenho é aproximação cartográfica, não fronteira canônica.",
+      "mapEntityIds": [
+        "unknown-north",
+        "unknown-east",
+        "unknown-south"
+      ],
+      "themes": [
+        "desconhecido"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    }
+  ]
+}

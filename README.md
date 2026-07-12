@@ -10,7 +10,7 @@ Na Fase 5, a mesma visualização passou a integrar um template privado compatí
 
 Na Fase 6, a pasta `downloads` passa a oferecer somente PNGs, GeoJSON, pacote de impressão e manifesto aprovados pela validação de privacidade. O template Azgaar continua privado.
 
-Na Fase 7, a interface passa a oferecer progressivamente zoom, deslocamento, camadas, pesquisa e seleção, consumindo apenas o SVG e o GeoJSON públicos. O SVG permanece como fallback sem JavaScript.
+Na Fase 7, a interface passou a oferecer zoom, deslocamento, camadas, filtros, pesquisa, seleção e estado compartilhável, consumindo apenas o SVG e o GeoJSON públicos. O SVG permanece como fallback sem JavaScript.
 
 As decisões cartográficas exibidas foram aprovadas pelo autor. Coordenadas, limites e traçados exatos continuam sendo adaptações técnicas do mapa.
 

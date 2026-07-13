@@ -2,7 +2,7 @@
   "id": "./",
   "name": "Valgard Maps",
   "short_name": "Valgard Maps",
-  "description": "Mapa público, atlas e protótipo 3D de Valgard.",
+  "description": "Mapa interativo, galeria cartográfica e atlas público de Eldrath.",
   "lang": "pt-BR",
   "start_url": "./index.html",
   "scope": "./",

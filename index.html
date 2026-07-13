@@ -8,13 +8,14 @@
   <meta name="theme-color" content="#201f1b">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="phase29.css">
   <link rel="stylesheet" href="accessibility.css">
   <link rel="stylesheet" href="polish.css">
 </head>
 <body>
   <a class="skip-link" href="#main-content">Pular para o mapa</a>
   <header>
-    <p>Valgard Maps · versão oficial 1.17.0 · snapshot 3.2.0 · World Engine 1.0.0</p>
+    <p>Valgard Maps · versão oficial 1.19.0 · snapshot 3.4.1 · World Engine 1.0.0</p>
     <h1>Eldrath</h1>
     <p>Mapa público do mundo conhecido. As terras ao norte, leste e sul permanecem desconhecidas; coordenadas e formas são aproximações cartográficas, sem escala física global.</p>
     <nav class="site-nav" aria-label="Navegação principal"><a href="index.html" aria-current="page">Mapa</a><a href="atlas.html">Atlas</a><a href="search.html">Busca</a><a href="tours.html">Percursos</a><a href="valgard-3d.html">Valgard 3D</a></nav>
@@ -44,6 +45,7 @@
             <select id="feature-category">
               <option value="all">Todas</option>
               <option value="settlements">Assentamentos</option>
+              <option value="landmarks">Marcos</option>
               <option value="regions">Regiões</option>
               <option value="rivers">Rios</option>
               <option value="relief">Relevo</option>
@@ -67,6 +69,7 @@
             <label><input type="checkbox" data-layer="hydrology" checked> Águas</label>
             <label><input type="checkbox" data-layer="relief" checked> Relevo</label>
             <label><input type="checkbox" data-layer="settlements" checked> Assentamentos</label>
+            <label><input type="checkbox" data-layer="landmarks" checked> Marcos</label>
             <label><input type="checkbox" data-layer="unknown" checked> Terras desconhecidas</label>
           </div>
         </section>

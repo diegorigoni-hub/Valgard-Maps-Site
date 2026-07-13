@@ -3,8 +3,8 @@
   "name": "Eldrath — Mundo Conhecido",
   "valgardMetadata": {
     "mapId": "eldrath-v001",
-    "schemaVersion": "3.2.0",
-    "snapshotVersion": "3.2.0",
+    "schemaVersion": "3.4.1",
+    "snapshotVersion": "3.4.1",
     "status": "stable",
     "coordinateReference": "Valgard local cartographic canvas; not geographic longitude/latitude",
     "units": "map-unit",
@@ -115,6 +115,67 @@
         "geometrySource": "cartographic-adaptation",
         "regionIds": [
           "region-east"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biome-lumen-floodplains",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              285,
+              590
+            ],
+            [
+              405,
+              565
+            ],
+            [
+              555,
+              530
+            ],
+            [
+              710,
+              495
+            ],
+            [
+              805,
+              515
+            ],
+            [
+              710,
+              570
+            ],
+            [
+              540,
+              610
+            ],
+            [
+              365,
+              650
+            ],
+            [
+              285,
+              590
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "biome-lumen-floodplains",
+        "name": "Várzeas do Lumen",
+        "type": "biome",
+        "collection": "biomes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-12",
+        "geometrySource": "cartographic-adaptation",
+        "regionIds": [
+          "region-central"
         ]
       }
     },
@@ -534,6 +595,122 @@
         "geometrySource": "cartographic-adaptation",
         "seasonality": "seasonal",
         "regionId": "region-plains"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "landmark-ashvale-standing-stones",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          905,
+          610
+        ]
+      },
+      "properties": {
+        "id": "landmark-ashvale-standing-stones",
+        "name": "Pedras Verticais de Ashvale",
+        "type": "landmark",
+        "collection": "landmarks",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-12",
+        "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "confirmed",
+        "kind": "natural-marker",
+        "regionId": "region-central",
+        "territoryId": "territory-ashvale",
+        "relatedSettlementIds": [
+          "settlement-ashvale"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "landmark-fogo-da-ponta",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          225,
+          585
+        ]
+      },
+      "properties": {
+        "id": "landmark-fogo-da-ponta",
+        "name": "Fogo da Ponta",
+        "type": "landmark",
+        "collection": "landmarks",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-12",
+        "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "confirmed",
+        "kind": "signal-beacon",
+        "regionId": "region-west",
+        "territoryId": "territory-thalmoor",
+        "relatedSettlementIds": [
+          "settlement-thalmoor"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "landmark-southeast-branch-bridge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          760,
+          515
+        ]
+      },
+      "properties": {
+        "id": "landmark-southeast-branch-bridge",
+        "name": "Ponte do Braço Sudeste",
+        "type": "landmark",
+        "collection": "landmarks",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-12",
+        "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "confirmed",
+        "kind": "bridge",
+        "regionId": "region-central",
+        "territoryId": "territory-valgard",
+        "relatedSettlementIds": [
+          "settlement-valgard"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "landmark-wandering-ruins-field",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          690,
+          225
+        ]
+      },
+      "properties": {
+        "id": "landmark-wandering-ruins-field",
+        "name": "Campo das Ruínas Errantes",
+        "type": "landmark",
+        "collection": "landmarks",
+        "source": "canonical",
+        "precision": "qualitative",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-12",
+        "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "partial",
+        "kind": "ruin",
+        "regionId": "region-plains",
+        "territoryId": "territory-rhenmark",
+        "relatedSettlementIds": [
+          "settlement-rhenmark"
+        ]
       }
     },
     {
@@ -1063,6 +1240,43 @@
         "kind": "mountain-range",
         "regionId": "region-east",
         "relatedSettlementIds": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relief-high-iron-pass",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            965,
+            420
+          ],
+          [
+            1015,
+            450
+          ],
+          [
+            1060,
+            480
+          ]
+        ]
+      },
+      "properties": {
+        "id": "relief-high-iron-pass",
+        "name": "Passo do Alto Ferro",
+        "type": "mountain-pass",
+        "collection": "relief",
+        "source": "canonical",
+        "precision": "qualitative",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-12",
+        "geometrySource": "cartographic-adaptation",
+        "kind": "mountain-pass",
+        "regionId": "region-east",
+        "relatedSettlementIds": [
+          "settlement-kragmoor"
+        ]
       }
     },
     {
@@ -1682,6 +1896,183 @@
     },
     {
       "type": "Feature",
+      "id": "route-thalmoor-enseada-baixa",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            300,
+            620
+          ],
+          [
+            305,
+            650
+          ],
+          [
+            315,
+            675
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route-thalmoor-enseada-baixa",
+        "name": "Caminho da Enseada Baixa",
+        "type": "route",
+        "collection": "routes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-12",
+        "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "confirmed",
+        "routeClass": "terrestrial",
+        "modes": [
+          "a pé",
+          "cavalo",
+          "carroça leve"
+        ],
+        "fromSettlementId": "settlement-thalmoor",
+        "toSettlementId": "settlement-enseada-baixa",
+        "distance": {
+          "unit": null,
+          "minimum": null,
+          "maximum": null,
+          "status": "unknown"
+        },
+        "travelDays": {
+          "unit": null,
+          "minimum": null,
+          "maximum": null,
+          "status": "unknown"
+        },
+        "reverseTravelDays": {
+          "unit": null,
+          "minimum": null,
+          "maximum": null,
+          "status": "unknown"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-thalmoor-ponta-do-junco",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            300,
+            620
+          ],
+          [
+            275,
+            590
+          ],
+          [
+            255,
+            555
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route-thalmoor-ponta-do-junco",
+        "name": "Caminho da Ponta do Junco",
+        "type": "route",
+        "collection": "routes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-12",
+        "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "confirmed",
+        "routeClass": "terrestrial",
+        "modes": [
+          "a pé",
+          "cavalo",
+          "carroça leve"
+        ],
+        "fromSettlementId": "settlement-thalmoor",
+        "toSettlementId": "settlement-ponta-do-junco",
+        "distance": {
+          "unit": null,
+          "minimum": null,
+          "maximum": null,
+          "status": "unknown"
+        },
+        "travelDays": {
+          "unit": null,
+          "minimum": null,
+          "maximum": null,
+          "status": "unknown"
+        },
+        "reverseTravelDays": {
+          "unit": null,
+          "minimum": null,
+          "maximum": null,
+          "status": "unknown"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-thalmoor-salbruma",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            300,
+            620
+          ],
+          [
+            275,
+            555
+          ],
+          [
+            245,
+            475
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route-thalmoor-salbruma",
+        "name": "Caminho de Salbruma",
+        "type": "route",
+        "collection": "routes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-12",
+        "geometrySource": "cartographic-adaptation",
+        "knowledgeStatus": "confirmed",
+        "routeClass": "terrestrial",
+        "modes": [
+          "a pé",
+          "cavalo",
+          "carroça leve"
+        ],
+        "fromSettlementId": "settlement-thalmoor",
+        "toSettlementId": "settlement-salbruma",
+        "distance": {
+          "unit": null,
+          "minimum": null,
+          "maximum": null,
+          "status": "unknown"
+        },
+        "travelDays": {
+          "unit": null,
+          "minimum": null,
+          "maximum": null,
+          "status": "unknown"
+        },
+        "reverseTravelDays": {
+          "unit": null,
+          "minimum": null,
+          "maximum": null,
+          "status": "unknown"
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "route-thalmoor-xerath",
       "geometry": {
         "type": "LineString",
@@ -2104,14 +2495,45 @@
         "collection": "settlements",
         "source": "canonical",
         "precision": "approximate",
-        "version": "1.1.0",
-        "lastVerifiedAt": "2026-07-11",
+        "version": "1.2.0",
+        "lastVerifiedAt": "2026-07-12",
         "geometrySource": "cartographic-adaptation",
         "kind": "meeting-place",
         "regionId": "region-central",
         "subregionId": "subregion-ashvale-valley",
         "territoryId": "territory-ashvale",
         "peopleIds": [],
+        "hasPort": false,
+        "hasMine": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "settlement-enseada-baixa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          315,
+          675
+        ]
+      },
+      "properties": {
+        "id": "settlement-enseada-baixa",
+        "name": "Enseada Baixa",
+        "type": "village",
+        "collection": "settlements",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-12",
+        "geometrySource": "cartographic-adaptation",
+        "kind": "village",
+        "regionId": "region-west",
+        "territoryId": "territory-thalmoor",
+        "peopleIds": [
+          "people-thalmoor"
+        ],
+        "parentSettlementId": "settlement-thalmoor",
         "hasPort": false,
         "hasMine": false
       }
@@ -2179,6 +2601,37 @@
     },
     {
       "type": "Feature",
+      "id": "settlement-ponta-do-junco",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          255,
+          555
+        ]
+      },
+      "properties": {
+        "id": "settlement-ponta-do-junco",
+        "name": "Ponta do Junco",
+        "type": "village",
+        "collection": "settlements",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-12",
+        "geometrySource": "cartographic-adaptation",
+        "kind": "village",
+        "regionId": "region-west",
+        "territoryId": "territory-thalmoor",
+        "peopleIds": [
+          "people-thalmoor"
+        ],
+        "parentSettlementId": "settlement-thalmoor",
+        "hasPort": false,
+        "hasMine": false
+      }
+    },
+    {
+      "type": "Feature",
       "id": "settlement-rhenmark",
       "geometry": {
         "type": "Point",
@@ -2203,6 +2656,37 @@
         "peopleIds": [
           "people-rhenmark"
         ],
+        "hasPort": false,
+        "hasMine": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "settlement-salbruma",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          245,
+          475
+        ]
+      },
+      "properties": {
+        "id": "settlement-salbruma",
+        "name": "Salbruma",
+        "type": "village",
+        "collection": "settlements",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-12",
+        "geometrySource": "cartographic-adaptation",
+        "kind": "village",
+        "regionId": "region-west",
+        "territoryId": "territory-thalmoor",
+        "peopleIds": [
+          "people-thalmoor"
+        ],
+        "parentSettlementId": "settlement-thalmoor",
         "hasPort": false,
         "hasMine": false
       }
@@ -2599,8 +3083,8 @@
         "collection": "territories",
         "source": "canonical",
         "precision": "approximate",
-        "version": "1.0.0",
-        "lastVerifiedAt": "2026-07-11",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-12",
         "geometrySource": "cartographic-adaptation",
         "regionIds": [
           "region-plains"

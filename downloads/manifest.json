@@ -2,8 +2,8 @@
   "manifestVersion": "1.0.0",
   "mapId": "eldrath-v001",
   "name": "Eldrath — Mundo Conhecido",
-  "schemaVersion": "3.2.0",
-  "snapshotVersion": "3.2.0",
+  "schemaVersion": "3.4.1",
+  "snapshotVersion": "3.4.1",
   "snapshotStatus": "stable",
   "lastVerifiedAt": "2026-07-12",
   "coordinateReference": "local-cartographic-canvas",
@@ -17,36 +17,36 @@
       "path": "exports/eldrath-v001/eldrath-v001-1600x1000.png",
       "publicPath": "downloads/eldrath-v001-1600x1000.png",
       "mediaType": "image/png",
-      "bytes": 629728,
-      "sha256": "edfc5326b4c9371c01a59be11a89de40a499c0f98e78977b78c03a5a8e069f69"
+      "bytes": 913726,
+      "sha256": "6ab40edaff3b22c4a0ada71304afbc920a435742a4a93b186e2bc676050547c5"
     },
     {
       "path": "exports/eldrath-v001/eldrath-v001-3200x2000.png",
       "publicPath": "downloads/eldrath-v001-3200x2000.png",
       "mediaType": "image/png",
-      "bytes": 1735589,
-      "sha256": "69b60f686ac6a0c808a3d293d1f6edfd2ce84a87536402e5f53748e6ed70ac1a"
+      "bytes": 2679670,
+      "sha256": "218a28f6768da46c9a77f2ca376626365c120b66a1ab1f7938bf14cb3a001247"
     },
     {
       "path": "exports/eldrath-v001/eldrath-v001-print.zip",
       "publicPath": "downloads/eldrath-v001-print.zip",
       "mediaType": "application/zip",
-      "bytes": 1773139,
-      "sha256": "218323b548f00f721037ceb8a1da2dbe7c93281608b84cb8342bd0f37080c7fb"
+      "bytes": 2722904,
+      "sha256": "a735cd828d75d65ce177ea59ac4338f3f0b688b6f97dd024ce68058edcd00938"
     },
     {
       "path": "exports/eldrath-v001/eldrath-v001.geojson",
       "publicPath": "downloads/eldrath-v001.geojson",
       "mediaType": "application/geo+json",
-      "bytes": 63396,
-      "sha256": "6308829659bfa22d9f129c3e6d7ae81980f7056ad1b445e6cc861339bf309726"
+      "bytes": 75353,
+      "sha256": "0b8482d584d90df23913772b60b772f648d863795527eb5d4b0e2aea34caec27"
     },
     {
       "path": "site/maps/eldrath-v001.svg",
       "publicPath": "maps/eldrath-v001.svg",
       "mediaType": "image/svg+xml",
-      "bytes": 36901,
-      "sha256": "e16f384d26c7019c38197c44e3a174653feb7791e2bdd60b100760d13a04b105"
+      "bytes": 42585,
+      "sha256": "173dacc0ab934f3708b82d5845c9c09bed4783fdfcce32f6d907e0e8c25ec0cb"
     }
   ]
 }

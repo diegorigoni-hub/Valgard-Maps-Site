@@ -8,7 +8,7 @@
   const suggestions = document.querySelector("#feature-options");
   const layerInputs = [...document.querySelectorAll("[data-layer]")];
   const fullView = [0, 0, 1600, 1000];
-  const layerGroups = {biomes:["layer-biomes"],territories:["layer-territories"],regions:["layer-regions","layer-region-labels"],routes:["layer-routes"],hydrology:["layer-lakes","layer-rivers"],relief:["layer-relief"],settlements:["layer-settlements","layer-natural-ports"],unknown:["layer-unknown-regions"]};
+  const layerGroups = {biomes:["layer-biomes"],territories:["layer-territories"],regions:["layer-regions","layer-region-labels"],routes:["layer-routes"],hydrology:["layer-lakes","layer-rivers"],relief:["layer-relief"],settlements:["layer-settlements","layer-natural-ports"],landmarks:["layer-landmarks"],unknown:["layer-unknown-regions"]};
   let features = new Map(), atlasByEntity = new Map(), sceneByEntity = new Map(), svg, view = [...fullView], drag, selectedFeatureId, selectedTarget;
   const setStatus = message => { status.textContent = message; };
   const getSvgElement = id => object.contentDocument?.getElementById(id);

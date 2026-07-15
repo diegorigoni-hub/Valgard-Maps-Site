@@ -1,4 +1,4 @@
-const CACHE="valgard-maps-public-v1.20.0";
+const CACHE="valgard-maps-public-v1.21.0";
 const CORE=["./","./index.html","./gallery.html","./atlas.html","./valgard-3d.html","./search.html","./tours.html","./offline.html","./styles.css","./phase29.css","./polish.css","./accessibility.css","./gallery.css","./atlas.css","./valgard-3d.css","./search.css","./tours.css","./app.js","./atlas.js","./valgard-3d.js","./search.js","./tours.js","./sw-register.js","./manifest.webmanifest","./icons/valgard-map.svg","./maps/eldrath-v001.svg","./art/eldrath-carta-ilustrada-v001.jpg","./downloads/eldrath-v001-3200x2000.png","./downloads/eldrath-v001.geojson","./data/atlas.json","./data/scenes.json","./data/valgard-3d.json","./data/search-index.json","./data/tours.json","./vendor/three.module.min.js","./vendor/three.core.min.js"];
 const forbidden=pathname=>/(^|\/)(private-editor|private-workspace|notion|bkp)(\/|$)/i.test(pathname);
 self.addEventListener("install",event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)).then(()=>self.skipWaiting())));

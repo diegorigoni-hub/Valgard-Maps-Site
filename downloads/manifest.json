@@ -2,10 +2,10 @@
   "manifestVersion": "1.0.0",
   "mapId": "eldrath-v001",
   "name": "Eldrath — Mundo Conhecido",
-  "schemaVersion": "3.4.1",
-  "snapshotVersion": "3.4.1",
+  "schemaVersion": "3.5.0",
+  "snapshotVersion": "3.5.0",
   "snapshotStatus": "stable",
-  "lastVerifiedAt": "2026-07-12",
+  "lastVerifiedAt": "2026-07-14",
   "coordinateReference": "local-cartographic-canvas",
   "geometrySource": "cartographic-adaptation",
   "containsPrivateNarrative": false,
@@ -17,36 +17,36 @@
       "path": "exports/eldrath-v001/eldrath-v001-1600x1000.png",
       "publicPath": "downloads/eldrath-v001-1600x1000.png",
       "mediaType": "image/png",
-      "bytes": 913726,
-      "sha256": "6ab40edaff3b22c4a0ada71304afbc920a435742a4a93b186e2bc676050547c5"
+      "bytes": 929450,
+      "sha256": "9b0cb56599c6355faf9d2e933d1782b139d567efbd3be168c4b68cec3d8c0f19"
     },
     {
       "path": "exports/eldrath-v001/eldrath-v001-3200x2000.png",
       "publicPath": "downloads/eldrath-v001-3200x2000.png",
       "mediaType": "image/png",
-      "bytes": 2679670,
-      "sha256": "218a28f6768da46c9a77f2ca376626365c120b66a1ab1f7938bf14cb3a001247"
+      "bytes": 2695483,
+      "sha256": "0c63f1abb871f0f17df4d6d1fc51115919f74d0dc721500302be3dc6347ae326"
     },
     {
       "path": "exports/eldrath-v001/eldrath-v001-print.zip",
       "publicPath": "downloads/eldrath-v001-print.zip",
       "mediaType": "application/zip",
-      "bytes": 2722904,
-      "sha256": "a735cd828d75d65ce177ea59ac4338f3f0b688b6f97dd024ce68058edcd00938"
+      "bytes": 2745605,
+      "sha256": "fc4f06f5bf11a5e784a86d0d8532bf12e7dd2ac15738a460d24a889fda6b5bee"
     },
     {
       "path": "exports/eldrath-v001/eldrath-v001.geojson",
       "publicPath": "downloads/eldrath-v001.geojson",
       "mediaType": "application/geo+json",
-      "bytes": 75353,
-      "sha256": "0b8482d584d90df23913772b60b772f648d863795527eb5d4b0e2aea34caec27"
+      "bytes": 86996,
+      "sha256": "bd234452ea92f1567e218b950e7ee927522e495bfea96d5657c077dd8660f34f"
     },
     {
       "path": "site/maps/eldrath-v001.svg",
       "publicPath": "maps/eldrath-v001.svg",
       "mediaType": "image/svg+xml",
-      "bytes": 42585,
-      "sha256": "173dacc0ab934f3708b82d5845c9c09bed4783fdfcce32f6d907e0e8c25ec0cb"
+      "bytes": 49473,
+      "sha256": "7072bf5c0fd2ff4189457f5c2c6cae9b8c09c2d2feb6d86849abe34b305e64ec"
     }
   ]
 }

@@ -3,8 +3,8 @@
   "name": "Eldrath — Mundo Conhecido",
   "valgardMetadata": {
     "mapId": "eldrath-v001",
-    "schemaVersion": "3.4.1",
-    "snapshotVersion": "3.4.1",
+    "schemaVersion": "3.5.0",
+    "snapshotVersion": "3.5.0",
     "status": "stable",
     "coordinateReference": "Valgard local cartographic canvas; not geographic longitude/latitude",
     "units": "map-unit",
@@ -105,13 +105,13 @@
       },
       "properties": {
         "id": "biome-east-alpine",
-        "name": "Faixa alpina oriental",
+        "name": "Cobertura altitudinal oriental",
         "type": "biome",
         "collection": "biomes",
         "source": "cartographic-adaptation",
         "precision": "approximate",
-        "version": "1.0.0",
-        "lastVerifiedAt": "2026-07-11",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-14",
         "geometrySource": "cartographic-adaptation",
         "regionIds": [
           "region-east"
@@ -188,48 +188,154 @@
           [
             [
               220,
+              115
+            ],
+            [
+              470,
+              75
+            ],
+            [
+              800,
+              100
+            ],
+            [
+              1070,
               175
             ],
             [
-              450,
-              110
-            ],
-            [
-              760,
-              130
-            ],
-            [
-              1040,
-              200
-            ],
-            [
-              980,
-              285
+              990,
+              225
             ],
             [
               620,
-              270
+              210
             ],
             [
-              350,
-              300
+              330,
+              235
             ],
             [
               220,
-              175
+              115
             ]
           ]
         ]
       },
       "properties": {
         "id": "biome-north",
-        "name": "Tundra do Norte Congelado",
+        "name": "Tundra setentrional",
         "type": "biome",
         "collection": "biomes",
         "source": "cartographic-adaptation",
         "precision": "approximate",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-14",
+        "geometrySource": "cartographic-adaptation",
+        "regionIds": [
+          "region-north"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biome-northern-cold-prairie",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              270,
+              180
+            ],
+            [
+              900,
+              155
+            ],
+            [
+              1040,
+              205
+            ],
+            [
+              950,
+              260
+            ],
+            [
+              410,
+              275
+            ],
+            [
+              240,
+              230
+            ],
+            [
+              270,
+              180
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "biome-northern-cold-prairie",
+        "name": "Pradarias frias setentrionais",
+        "type": "biome",
+        "collection": "biomes",
+        "source": "canonical",
+        "precision": "approximate",
         "version": "1.0.0",
-        "lastVerifiedAt": "2026-07-11",
+        "lastVerifiedAt": "2026-07-14",
+        "geometrySource": "cartographic-adaptation",
+        "regionIds": [
+          "region-north"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biome-northern-sparse-woodland",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              310,
+              145
+            ],
+            [
+              850,
+              125
+            ],
+            [
+              1010,
+              190
+            ],
+            [
+              930,
+              235
+            ],
+            [
+              420,
+              245
+            ],
+            [
+              275,
+              205
+            ],
+            [
+              310,
+              145
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "biome-northern-sparse-woodland",
+        "name": "Vegetação esparsa setentrional",
+        "type": "biome",
+        "collection": "biomes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-14",
         "geometrySource": "cartographic-adaptation",
         "regionIds": [
           "region-north"
@@ -329,16 +435,122 @@
       },
       "properties": {
         "id": "biome-plains",
-        "name": "Campos das Grandes Planícies",
+        "name": "Estepe das Grandes Planícies",
         "type": "biome",
         "collection": "biomes",
         "source": "cartographic-adaptation",
         "precision": "approximate",
-        "version": "1.0.0",
-        "lastVerifiedAt": "2026-07-11",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-14",
         "geometrySource": "cartographic-adaptation",
         "regionIds": [
           "region-plains"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biome-southern-steppe",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              450,
+              655
+            ],
+            [
+              880,
+              625
+            ],
+            [
+              1110,
+              690
+            ],
+            [
+              1040,
+              740
+            ],
+            [
+              650,
+              755
+            ],
+            [
+              450,
+              710
+            ],
+            [
+              450,
+              655
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "biome-southern-steppe",
+        "name": "Estepe semiárida meridional",
+        "type": "biome",
+        "collection": "biomes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-14",
+        "geometrySource": "cartographic-adaptation",
+        "regionIds": [
+          "region-south"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "biome-southern-wastes",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              480,
+              700
+            ],
+            [
+              940,
+              665
+            ],
+            [
+              1130,
+              735
+            ],
+            [
+              1060,
+              805
+            ],
+            [
+              680,
+              825
+            ],
+            [
+              470,
+              765
+            ],
+            [
+              480,
+              700
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "biome-southern-wastes",
+        "name": "Ermos secos meridionais",
+        "type": "biome",
+        "collection": "biomes",
+        "source": "canonical",
+        "precision": "approximate",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-14",
+        "geometrySource": "cartographic-adaptation",
+        "regionIds": [
+          "region-south"
         ]
       }
     },
@@ -382,13 +594,13 @@
       },
       "properties": {
         "id": "biome-west-coast",
-        "name": "Costa marítima ocidental",
+        "name": "Costa temperada marítima ocidental",
         "type": "biome",
         "collection": "biomes",
         "source": "cartographic-adaptation",
         "precision": "approximate",
-        "version": "1.0.0",
-        "lastVerifiedAt": "2026-07-11",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-14",
         "geometrySource": "cartographic-adaptation",
         "regionIds": [
           "region-west"
@@ -403,45 +615,45 @@
         "coordinates": [
           [
             [
-              500,
-              710
+              520,
+              755
             ],
             [
               900,
-              670
+              720
             ],
             [
-              1120,
-              760
+              1100,
+              785
             ],
             [
               1030,
-              845
+              860
             ],
             [
               700,
-              885
-            ],
-            [
-              460,
-              790
+              900
             ],
             [
               500,
-              710
+              830
+            ],
+            [
+              520,
+              755
             ]
           ]
         ]
       },
       "properties": {
         "id": "biome-xerath",
-        "name": "Deserto do Sul",
+        "name": "Núcleo conhecido do Deserto do Sul",
         "type": "biome",
         "collection": "biomes",
         "source": "canonical",
         "precision": "approximate",
-        "version": "1.0.0",
-        "lastVerifiedAt": "2026-07-11",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-14",
         "geometrySource": "cartographic-adaptation",
         "regionIds": [
           "region-south"
@@ -823,8 +1035,8 @@
         "collection": "regions",
         "source": "canonical",
         "precision": "approximate",
-        "version": "1.0.0",
-        "lastVerifiedAt": "2026-07-11",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-14",
         "geometrySource": "cartographic-adaptation"
       }
     },
@@ -873,8 +1085,8 @@
         "collection": "regions",
         "source": "canonical",
         "precision": "approximate",
-        "version": "1.0.0",
-        "lastVerifiedAt": "2026-07-11",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-14",
         "geometrySource": "cartographic-adaptation"
       }
     },
@@ -931,8 +1143,8 @@
         "collection": "regions",
         "source": "canonical",
         "precision": "approximate",
-        "version": "1.0.0",
-        "lastVerifiedAt": "2026-07-11",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-14",
         "geometrySource": "cartographic-adaptation"
       }
     },
@@ -981,8 +1193,8 @@
         "collection": "regions",
         "source": "canonical",
         "precision": "approximate",
-        "version": "1.0.0",
-        "lastVerifiedAt": "2026-07-11",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-14",
         "geometrySource": "cartographic-adaptation"
       }
     },
@@ -1031,8 +1243,8 @@
         "collection": "regions",
         "source": "canonical",
         "precision": "approximate",
-        "version": "1.0.0",
-        "lastVerifiedAt": "2026-07-11",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-14",
         "geometrySource": "cartographic-adaptation"
       }
     },
@@ -1081,8 +1293,8 @@
         "collection": "regions",
         "source": "canonical",
         "precision": "approximate",
-        "version": "1.0.0",
-        "lastVerifiedAt": "2026-07-11",
+        "version": "1.1.0",
+        "lastVerifiedAt": "2026-07-14",
         "geometrySource": "cartographic-adaptation"
       }
     },
@@ -3234,6 +3446,336 @@
         "lastVerifiedAt": "2026-07-11",
         "geometrySource": "cartographic-adaptation",
         "regionIds": [
+          "region-south"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "transition-central-east-elevation",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              850,
+              300
+            ],
+            [
+              1010,
+              280
+            ],
+            [
+              1060,
+              650
+            ],
+            [
+              900,
+              690
+            ],
+            [
+              850,
+              500
+            ],
+            [
+              850,
+              300
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "transition-central-east-elevation",
+        "name": "Transição de altitude oriental",
+        "type": "climate-transition",
+        "collection": "climateTransitions",
+        "source": "canonical",
+        "precision": "qualitative",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-14",
+        "geometrySource": "cartographic-adaptation",
+        "transitionKind": "elevation",
+        "drivers": [
+          "elevation",
+          "slope-exposure",
+          "orographic-lift"
+        ],
+        "stages": [
+          "encostas temperadas",
+          "planalto frio e ventoso",
+          "cotas altas com neve persistente"
+        ],
+        "regionIds": [
+          "region-central",
+          "region-east"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "transition-central-plains-steppe",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              380,
+              260
+            ],
+            [
+              760,
+              230
+            ],
+            [
+              1030,
+              285
+            ],
+            [
+              970,
+              370
+            ],
+            [
+              700,
+              315
+            ],
+            [
+              390,
+              350
+            ],
+            [
+              380,
+              260
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "transition-central-plains-steppe",
+        "name": "Transição para a estepe das Planícies",
+        "type": "climate-transition",
+        "collection": "climateTransitions",
+        "source": "canonical",
+        "precision": "qualitative",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-14",
+        "geometrySource": "cartographic-adaptation",
+        "transitionKind": "steppe",
+        "drivers": [
+          "open-terrain",
+          "wind-exposure",
+          "rainfall-variability"
+        ],
+        "stages": [
+          "campos temperados",
+          "pradarias abertas",
+          "estepe temperada"
+        ],
+        "regionIds": [
+          "region-central",
+          "region-plains"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "transition-central-west-maritime",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              320,
+              300
+            ],
+            [
+              430,
+              320
+            ],
+            [
+              405,
+              570
+            ],
+            [
+              470,
+              730
+            ],
+            [
+              350,
+              700
+            ],
+            [
+              290,
+              520
+            ],
+            [
+              320,
+              300
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "transition-central-west-maritime",
+        "name": "Transição marítima ocidental",
+        "type": "climate-transition",
+        "collection": "climateTransitions",
+        "source": "canonical",
+        "precision": "qualitative",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-14",
+        "geometrySource": "cartographic-adaptation",
+        "transitionKind": "maritime",
+        "drivers": [
+          "distance-from-sea",
+          "coastal-winds",
+          "humidity"
+        ],
+        "stages": [
+          "interior temperado",
+          "faixa de influência marítima",
+          "costa temperada úmida"
+        ],
+        "regionIds": [
+          "region-central",
+          "region-west"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "transition-northern-cold",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              190,
+              145
+            ],
+            [
+              500,
+              95
+            ],
+            [
+              800,
+              110
+            ],
+            [
+              1080,
+              180
+            ],
+            [
+              1020,
+              270
+            ],
+            [
+              620,
+              250
+            ],
+            [
+              300,
+              285
+            ],
+            [
+              190,
+              145
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "transition-northern-cold",
+        "name": "Gradiente frio setentrional",
+        "type": "climate-transition",
+        "collection": "climateTransitions",
+        "source": "canonical",
+        "precision": "qualitative",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-14",
+        "geometrySource": "cartographic-adaptation",
+        "transitionKind": "cold",
+        "drivers": [
+          "northward-position",
+          "winter-duration",
+          "open-terrain"
+        ],
+        "stages": [
+          "estepe temperada",
+          "pradaria fria",
+          "vegetação esparsa",
+          "tundra",
+          "congelamento prolongado"
+        ],
+        "regionIds": [
+          "region-plains",
+          "region-north"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "transition-southern-aridity",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              430,
+              620
+            ],
+            [
+              880,
+              600
+            ],
+            [
+              1160,
+              680
+            ],
+            [
+              1080,
+              790
+            ],
+            [
+              690,
+              800
+            ],
+            [
+              450,
+              720
+            ],
+            [
+              430,
+              620
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "transition-southern-aridity",
+        "name": "Gradiente de aridez meridional",
+        "type": "climate-transition",
+        "collection": "climateTransitions",
+        "source": "canonical",
+        "precision": "qualitative",
+        "version": "1.0.0",
+        "lastVerifiedAt": "2026-07-14",
+        "geometrySource": "cartographic-adaptation",
+        "transitionKind": "aridity",
+        "drivers": [
+          "continentality",
+          "seasonal-winds",
+          "soil-conditions",
+          "partial-orographic-influence"
+        ],
+        "stages": [
+          "campos férteis",
+          "campos secos",
+          "estepe semiárida",
+          "ermos secos",
+          "núcleo desértico"
+        ],
+        "regionIds": [
+          "region-central",
           "region-south"
         ]
       }

@@ -1,8 +1,8 @@
 {
   "contractVersion": "1.2.0",
   "mapId": "eldrath-v001",
-  "snapshotVersion": "3.4.1",
-  "evaluationDate": "2026-07-12",
+  "snapshotVersion": "3.5.0",
+  "evaluationDate": "2026-07-14",
   "entries": [
     {
       "id": "atlas-valgard",
@@ -251,13 +251,14 @@
       "id": "atlas-great-plains",
       "title": "Grandes Planícies",
       "kind": "place",
-      "summary": "Região aberta e ventosa ao norte das Terras Centrais, marcada por pastagens, deslocamentos de Rhenmark e águas sazonais.",
+      "summary": "Estepe temperada, aberta e ventosa ao norte das Terras Centrais, com chuvas irregulares, pastagens, deslocamentos de Rhenmark e águas sazonais.",
       "mapEntityIds": [
         "region-plains"
       ],
       "themes": [
         "planícies",
-        "regiões"
+        "regiões",
+        "clima"
       ],
       "period": "atemporal",
       "chapterRefs": [],
@@ -268,13 +269,15 @@
       "id": "atlas-eastern-mountains",
       "title": "Montanhas Orientais",
       "kind": "place",
-      "summary": "Barreira montanhosa contínua no horizonte leste, fonte do Rio Lumen e influência qualitativa sobre a distribuição de umidade.",
+      "summary": "Barreira montanhosa contínua no horizonte leste, com encostas temperadas, planalto frio e neve persistente sobretudo nas cotas altas.",
       "mapEntityIds": [
-        "relief-eastern-mountains"
+        "relief-eastern-mountains",
+        "transition-central-east-elevation"
       ],
       "themes": [
         "montanhas",
-        "relevo"
+        "relevo",
+        "clima"
       ],
       "period": "atemporal",
       "chapterRefs": [],
@@ -302,14 +305,62 @@
       "id": "atlas-southern-desert",
       "title": "Deserto do Sul",
       "kind": "place",
-      "summary": "Região meridional quente e seca, com noites frias e aridez associada a múltiplos fatores naturais.",
+      "summary": "Grande região meridional que progride de campos secos para estepe semiárida, ermos e núcleo desértico mais distante.",
       "mapEntityIds": [
+        "biome-southern-steppe",
+        "biome-southern-wastes",
         "biome-xerath",
-        "region-south"
+        "region-south",
+        "transition-southern-aridity"
       ],
       "themes": [
         "deserto",
-        "biomas"
+        "biomas",
+        "clima"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-climate-gradients",
+      "title": "Climas e transições de Eldrath",
+      "kind": "theme",
+      "summary": "Macroclimas próximos e extremos conectados por transições graduais de influência marítima, altitude, estepe, aridez e frio; limites desenhados são aproximados.",
+      "mapEntityIds": [
+        "transition-central-west-maritime",
+        "transition-central-east-elevation",
+        "transition-central-plains-steppe",
+        "transition-southern-aridity",
+        "transition-northern-cold"
+      ],
+      "themes": [
+        "clima",
+        "regiões"
+      ],
+      "period": "atemporal",
+      "chapterRefs": [],
+      "eventRefs": [],
+      "characterRefs": []
+    },
+    {
+      "id": "atlas-frozen-north",
+      "title": "Norte Congelado",
+      "kind": "place",
+      "summary": "Grande região-limite que progride de pradarias frias para vegetação esparsa, tundra e congelamento prolongado antes das terras não mapeadas.",
+      "mapEntityIds": [
+        "region-north",
+        "biome-northern-cold-prairie",
+        "biome-northern-sparse-woodland",
+        "biome-north",
+        "transition-northern-cold",
+        "unknown-north"
+      ],
+      "themes": [
+        "clima",
+        "regiões",
+        "desconhecido"
       ],
       "period": "atemporal",
       "chapterRefs": [],
